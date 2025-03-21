@@ -5,6 +5,7 @@ El sistema permitirá:
 - Registrar cuentas bancarias del usuario.
 - Ingresar gastos y adquisiciones asociados a cada cuenta.
 - Generar un informe mensual que resuma los movimientos financieros.
+- Realizar un informe aparte donde muestre los montos gastados de las tarjetas de credito como las tarjetas de debito. 
 
 ---
 
