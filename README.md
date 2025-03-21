@@ -1,27 +1,30 @@
-# Proyecto Semestral
-Vamos por partes. Para definir bien el proyecto, podemos avanzar en estos puntos:
-
 ### **1. Descripción general del proyecto**
-Un **Gestor de Tareas** que permita a los usuarios organizar sus actividades de forma eficiente. El sistema incluirá funciones básicas como:
-- Crear, editar y eliminar tareas.
-- Asignar fechas de vencimiento.
-- Marcar tareas como completadas.
-- Filtrar tareas por estado (pendiente, en progreso, completada).
-- (Opcional) Enviar recordatorios o notificaciones.
+El sistema permitirá:
+- Registrar cuentas bancarias del usuario.
+- Ingresar gastos y adquisiciones asociados a cada cuenta.
+- Generar un informe mensual que resuma los movimientos financieros.
 
 ---
 
 ### **2. Tecnologías a utilizar**
+- **Frontend:** Tkinter (interfaz sencilla y rápida de implementar).
+- **Backend:** Python para la lógica de negocio.
+- **Base de Datos:** SQLite para un manejo eficiente y sin complicaciones.
 
 ---
 
 ### **3. Metodología de desarrollo**
-Dado que tienen avances semanales, una metodología **Kanban** podría ser ideal. Permite trabajar de forma flexible, enfocándose en completar pequeñas tareas progresivamente. Se puede usar **Trello** o **GitHub Projects** para organizar el flujo de trabajo.
+Siguiendo un enfoque **Kanban** para avanzar semana a semana en tareas específicas, como:
+- Semana 1: Diseño de la base de datos.
+- Semana 2: Interfaz para registrar cuentas y gastos.
+- Semana 3: Generación del informe mensual.
+- Semana 4: Pruebas y mejoras.
 
 ---
 
 ### **4. Posible vinculación con otras asignaturas**
-- **Bases de Datos:** Diseño de tablas, consultas SQL y manejo de datos.
-- **Ingeniería de Software:** Aplicación de buenas prácticas de codificación y diseño modular.
+- **Bases de Datos:** Diseño de tablas para manejar cuentas y registros de gastos.
+- **Programación:** Implementación de lógica para calcular totales, filtrar registros, etc.
+- **Interacción Humano-Computador (HCI):** Diseño de una interfaz intuitiva.
 
----
+¿Quieres que empecemos por el diseño de la base de datos o por los requisitos del sistema?
