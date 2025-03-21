@@ -12,9 +12,6 @@ Un **Gestor de Tareas** que permita a los usuarios organizar sus actividades de 
 ---
 
 ### **2. Tecnologías a utilizar**
-- **Frontend:** Tkinter (sencillo e ideal para proyectos pequeños) o una interfaz web con Flask.
-- **Backend:** Python con manejo de lógica y control de datos.
-- **Base de Datos:** SQLite (ligera y perfecta para proyectos sencillos).
 
 ---
 
@@ -26,6 +23,5 @@ Dado que tienen avances semanales, una metodología **Kanban** podría ser ideal
 ### **4. Posible vinculación con otras asignaturas**
 - **Bases de Datos:** Diseño de tablas, consultas SQL y manejo de datos.
 - **Ingeniería de Software:** Aplicación de buenas prácticas de codificación y diseño modular.
-- **Interacción Humano-Computador (HCI):** Diseño de una interfaz amigable e intuitiva.
 
 ---
