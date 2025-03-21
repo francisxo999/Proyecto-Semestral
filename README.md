@@ -1,3 +1,5 @@
+### Proyecto Semestral
+
 ### **1. Descripción general del proyecto**
 El sistema permitirá:
 - Registrar cuentas bancarias del usuario.
@@ -7,24 +9,19 @@ El sistema permitirá:
 ---
 
 ### **2. Tecnologías a utilizar**
-- **Frontend:** Tkinter (interfaz sencilla y rápida de implementar).
-- **Backend:** Python para la lógica de negocio.
-- **Base de Datos:** SQLite para un manejo eficiente y sin complicaciones.
+- **Python:** Para el desarrollo de la programación del sistema.
+- **Moqups:** Para la creación de interfaces rápidas y sencillas.
 
 ---
 
 ### **3. Metodología de desarrollo**
-Siguiendo un enfoque **Kanban** para avanzar semana a semana en tareas específicas, como:
-- Semana 1: Diseño de la base de datos.
-- Semana 2: Interfaz para registrar cuentas y gastos.
-- Semana 3: Generación del informe mensual.
-- Semana 4: Pruebas y mejoras.
+Siguiendo un enfoque Kanban para avanzar semana a semana en tareas específicas, como:
+- Semana 1: Explicación del sistema y creación de repositorios en Github.
+- Semana 2: ...
 
 ---
 
 ### **4. Posible vinculación con otras asignaturas**
 - **Bases de Datos:** Diseño de tablas para manejar cuentas y registros de gastos.
-- **Programación:** Implementación de lógica para calcular totales, filtrar registros, etc.
-- **Interacción Humano-Computador (HCI):** Diseño de una interfaz intuitiva.
+- **Fundamentos de Programación y Desarrollo Fullstack:** Implementación de lógica para calcular totales, filtrar registros, etc.
 
-¿Quieres que empecemos por el diseño de la base de datos o por los requisitos del sistema?
