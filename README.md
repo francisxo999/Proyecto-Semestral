@@ -1,4 +1,4 @@
-### Proyecto Semestral
+### Proyecto Semestral ###
 
 ### **1. Descripción general del proyecto**
 El sistema permitirá:
