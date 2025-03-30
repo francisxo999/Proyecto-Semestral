@@ -11,4 +11,4 @@
       - Javier Cataldo
       - Cristobal Gonzalez
       - Francisco Vera
-   - **Líder de equipo:** ANTON KNITTEL.
+   - **Líder de equipo:** Francisco Vera.
