@@ -1,4 +1,4 @@
-### Proyecto Semestral: VETcarti ###
+### Proyecto Semestral: vettsafe ###
 
 ### 1. Proyecto
    - **Descripción general:** Crearemos un sistema diseñado para gestionar la información de mascotas y sus consultas médicas de manera eficiente con la metodología CRUD, esta permitirá registrar datos como el nombre, la especie, la raza y la edad, así como información de sus dueños. Su objetivo es optimizar la administración en clínicas, postas o centros veterinarios, reduciendo errores y mejorando el acceso a la información en tiempo real.
