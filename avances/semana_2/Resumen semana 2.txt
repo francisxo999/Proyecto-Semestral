@@ -1,3 +1,4 @@
 ## Semana 2 ##
 ## Realizamos una retroalimentacion de lo que hicimos en la semana 1 y aplicamos los cambios respectivos a las interfaces diseñadas.
 ## Utilizamos figma para el desarrollo de la interfaz, corrigiendo y perfeccionando la gama de colores para hacer mas intuitivo y atracctivo la interfaz de usuario.
+
