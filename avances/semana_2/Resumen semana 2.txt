@@ -1,4 +1,10 @@
-## Semana 2 ##
-## Realizamos una retroalimentacion de lo que hicimos en la semana 1 y aplicamos los cambios respectivos a las interfaces diseñadas.
-## Utilizamos figma para el desarrollo de la interfaz, corrigiendo y perfeccionando la gama de colores para hacer mas intuitivo y atracctivo la interfaz de usuario.
+Resumen Semana 2
 
+Durante la segunda semana del proyecto, avanzamos en las siguientes tareas:  
+
+1. Primeros avances en el desarrollo:  
+   - Creamos la estructura base del proyecto en Python.  
+
+2. Desarrollo de interfaces:  
+   - Diseñamos las primeras pantallas de la aplicación.  
+   - Implementamos una interfaz inicial para la visualización y registro de animales.  
