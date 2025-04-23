@@ -1,6 +1,6 @@
 Resumen Semana 2
 
-Durante la segunda semana del proyecto, avanzamos en las siguientes tareas:  
+En la segunda semana del proyecto, realizamos las siguientes actividades:  
 
 1. Primeros avances en el desarrollo:  
    - Creamos la estructura base del proyecto en Python.  
