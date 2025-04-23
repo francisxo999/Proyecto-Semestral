@@ -6,9 +6,18 @@
    - **Metodología de desarrollo:** Scrum (con sprints semanales) o Kanban (para flujo continuo).
    - **Vinculación con otras asignaturas:** Puede relacionarse con bases de datos, desarrollo fullstack y fundamentos de programación.
 
-### 2. **Equipo**
-   - **Equipo:** Nos centraremos en avanzar de manera autónoma, pero siempre ayudandonos entre nosotros.
+### 2. Equipo
+   - **Equipo:** Nos centraremos en avanzar de manera autónoma, pero siempre ayudándonos entre nosotros.
       - Javier Cataldo
       - Cristobal Gonzalez
       - Francisco Vera
    - **Líder de equipo:** Francisco Vera.
+
+---
+
+### Resumen semana por semana:
+
+- **Semana 1:** En la primera semana se definió la idea del proyecto, se creó la licencia y se asignaron roles para la organización inicial.
+- **Semana 2:** En la segunda semana se inició el desarrollo técnico, creando la estructura base y las primeras interfaces.
+- **Semana 3:** En la tercera semana se rediseñaron interfaces con base en feedback, mejorando la usabilidad y ordenando los recursos gráficos.
+- **Semana 4:** En la cuarta semana comenzó la capacitación técnica en programación y se revisaron avances gráficos y organizativos.
