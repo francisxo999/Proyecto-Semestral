@@ -1,9 +1,9 @@
 Resumen Semana 3
 
-Durante la tercera semana del proyecto, avanzamos en las siguientes tareas:
+En la tercera semana del proyecto, realizamos las siguientes actividades:  
 
 1. Rediseño de interfaces existentes:  
-   - Con la retroalimentación del profesor en los Mockups diseñados.
+   - Con la retroalimentación del profesor en los Mockups diseñados.  
    - Actualizamos la interfaz principal del sistema, mejorando su disposición y organización.  
    - Rediseñamos la pantalla de listado para una mejor visualización de la información.  
    - Reestructuramos la vista de registro y consulta de datos, con un enfoque más intuitivo para el usuario.  
@@ -12,4 +12,4 @@ Durante la tercera semana del proyecto, avanzamos en las siguientes tareas:
    - Renombramos y organizamos las capturas de pantalla correspondientes a las nuevas vistas:  
      - VistaMainRediseñada.png  
      - VistaListadoRediseñada.png  
-     - VistaAgregarConsultaRediseñada.png
+     - VistaAgregarConsultaRediseñada.png  
