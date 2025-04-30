@@ -2,11 +2,8 @@ Resumen Semana 4
 
 En la cuarta semana del proyecto, realizamos las siguientes actividades:  
 
-1. Inicio de la capacitación técnica:  
-   - Comenzamos una serie de sesiones para adentrarnos en la programación del sistema, abordando conceptos clave y herramientas necesarias para el desarrollo.  
-
-2. Revisión de avances gráficos:  
+1. Revisión de avances gráficos:  
    - Se evaluaron los diseños de interfaz generados hasta el momento, incluyendo pantallas como “Añadir Consulta”, “Historial”, “Main” y el “Logo” del sistema.  
 
-3. Organización de recursos:  
+2. Organización de recursos:  
    - Se realizó una reestructuración de carpetas y archivos para mantener ordenado el entorno de trabajo.  
