@@ -20,6 +20,6 @@
 - **Semana 1:** En la primera semana se definió la idea del proyecto, se creó la licencia y se asignaron roles para la organización inicial.
 - **Semana 2:** En la segunda semana se inició el desarrollo técnico, creando la estructura base y las primeras interfaces.
 - **Semana 3:** En la tercera semana se rediseñaron interfaces con base en feedback, mejorando la usabilidad y ordenando los recursos gráficos.
-- **Semana 4:** En la cuarta semana comenzó una capacitación adentrada de Git y Github, y se revisaron avances gráficos y organizativos.
+- **Semana 4:** En la cuarta semana comenzamos una capacitación con modulos de Microsoft Learn sobre Git y Github, y se realizaron avances gráficos y organizativos.
 - **Semana 5:** En la quinta semana se iniciaron los primeros avances en programación con VSC conectado a la base de datos.
 - **Semana 6:** En la sexta semana se profundizó en la estructura y organización del proyecto, esto con el fin de obtener mejor entendimiento de este y una mejor distribución de tareas.
