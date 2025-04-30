@@ -1,1 +1,11 @@
-m
+Resumen Semana 6
+
+En la sexta semana del proyecto, realizamos las siguientes actividades:  
+
+1.Retroalimentación:
+    -Basandonos en la retroalimentacion que nos hizo el profesor Marcelo Crisostomo sobre nuestra primera evaluacion, agregamos ramas en nuestro proyecto de GitHub, para que de esta forma 
+     cada integrante del grupo pueda realizar sus avances de manera personal e independiente.
+
+2.Planificación Estratégica del Proyecto:
+    -Con las intrucciones mostradas en el Notion de la Semana 6, se creo un tablero del proyecto en la plataforma de Jira y tambien se realizo una carta Gant, de esta forma nos     
+     distribuiremos las tareas con un plazo de tiempo determinado.
