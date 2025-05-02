@@ -6,10 +6,7 @@ En la primera semana del proyecto, realizamos las siguientes actividades:
    - Analizamos distintas opciones y elegimos desarrollar un sistema veterinario con la metodología CRUD.  
 
 2. Creación de la licencia del proyecto:  
-   - Creamos un archivo LICENSE.txt para definir los términos de uso del software.  
+   - Creamos un archivo LICENSE para definir los términos de uso del software.  
 
-3. Asignación de roles:  
-   - Cada integrante del equipo asumió un rol inicial para organizar el trabajo.  
-
-4. Planificación inicial:  
+3. Planificación inicial:  
    - Se establecieron las primeras tareas y objetivos para la siguiente semana.  
