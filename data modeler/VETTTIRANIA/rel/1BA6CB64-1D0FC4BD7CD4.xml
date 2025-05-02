@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="1BA6CB64-2519-4EB4-58D9-1D0FC4BD7CD4" mainViewID="33418441-5584-9B46-641F-1E8C992075EC">
-<createdBy>Pavillion</createdBy>
-<createdTime>2025-03-28 14:51:20 UTC</createdTime>
-<ownerDesignName>VETTTIRANIA</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
-</relationalModel>
