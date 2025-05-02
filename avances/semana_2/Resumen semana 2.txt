@@ -3,7 +3,7 @@ Resumen Semana 2
 En la segunda semana del proyecto, realizamos las siguientes actividades:  
 
 1. Primeros avances en el desarrollo:  
-   - Creamos la estructura base del proyecto en Python.  
+   - Creamos la estructura base del proyecto en Python y un prototipo en Base de datos para tener una idea principal.
 
 2. Desarrollo de interfaces:  
    - Diseñamos las primeras pantallas de la aplicación.  
