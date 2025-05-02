@@ -1,1 +1,5 @@
-sa
+Esta Carta Gantt es una herramienta de planificación que permite visualizar de forma clara y ordenada las actividades a realizar durante el desarrollo del proyecto. Estaremos utilizando la metodología Scrum, por eso está dividida en sprints, cada una con tareas específicas, fechas estimadas de inicio y término, duración en días, responsables asignados y porcentaje de avance.
+
+El cronograma abarca desde finales de abril hasta fines de julio de 2025 (es un aproximado, podremos terminar antes, durante o después), y organiza el proyecto en cinco fases principales: organización del equipo, desarrollo intermedio, integración del sistema, pruebas y validación, implementación y cierre. Las primeras tareas ya están completadas, mientras que el resto están distribuidas por semanas y aún por desarrollarse.
+
+Esta carta permite hacer seguimiento al avance del proyecto, identificar responsables y mantener el control del tiempo y cumplimiento de los objetivos.
