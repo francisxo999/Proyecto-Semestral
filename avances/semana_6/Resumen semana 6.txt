@@ -9,3 +9,5 @@ En la sexta semana del proyecto, realizamos las siguientes actividades:
 2.Planificación Estratégica del Proyecto:
     -Con las intrucciones mostradas en el Notion de la Semana 6, se creo un tablero del proyecto en la plataforma de Jira y tambien se realizo una carta Gant, de esta forma nos     
      distribuiremos las tareas con un plazo de tiempo determinado.
+
+LINK CARTA GANTT: https://docs.google.com/spreadsheets/d/1c3QkWdsqGV5yM9EpvRcGAK7bTbtyMJmF/edit?usp=sharing&ouid=117040996252373578955&rtpof=true&sd=true
