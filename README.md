@@ -17,7 +17,7 @@ El objetivo del proyecto es desarrollar un sistema diseñado para gestionar la i
 
 ## 2. Equipo
 - **Integrantes del equipo:**  
-  Nos centraremos en avanzar de manera autónoma, pero siempre colaborando entre nosotros para lograr los mejores resultados.  
+  Somos un equipo que realiza trabajo colaborativo, pero con tareas individuales.
   - Javier Cataldo  
   - Cristóbal González  
   - Francisco Vera
@@ -30,19 +30,40 @@ El objetivo del proyecto es desarrollar un sistema diseñado para gestionar la i
 ## Resumen Semanal de Avances
 
 - **Semana 1:**  
-  En la primera semana se definió la idea general del proyecto, se creó la licencia correspondiente y se asignaron los roles para la organización inicial del trabajo.
+  En la primera semana del proyecto, realizamos las siguientes actividades:
+  - **Definición de la idea:** Analizamos distintas opciones y elegimos desarrollar un sistema veterinario utilizando la metodología CRUD.
+  - **Creación de la licencia del proyecto:** Creamos un archivo LICENSE para definir los términos de uso del software.
+  - **Planificación inicial:** Se establecieron las primeras tareas y objetivos para la siguiente semana.
 
 - **Semana 2:**  
-  En la segunda semana se inició el desarrollo técnico, comenzando con la creación de la estructura base del sistema y el diseño de las primeras interfaces de usuario.
+  En la segunda semana del proyecto, realizamos las siguientes actividades:
+  - **Primeros avances en el desarrollo:** Creamos la estructura base del proyecto en Python y un prototipo de base de datos para tener una idea principal.
+  - **Desarrollo de interfaces:** Diseñamos las primeras pantallas de la aplicación e implementamos una interfaz inicial para la visualización y registro de animales.
 
 - **Semana 3:**  
-  Durante la tercera semana, se realizaron mejoras en las interfaces, basándonos en el feedback recibido. Esto permitió optimizar la usabilidad y organizar mejor los recursos gráficos.
+  Durante la tercera semana del proyecto, realizamos las siguientes actividades:
+  - **Rediseño de interfaces existentes:** Con la retroalimentación del profesor sobre los Mockups diseñados, actualizamos la interfaz principal del sistema, mejorando su disposición y organización. También rediseñamos la pantalla de listado y reestructuramos la vista de registro y consulta de datos para hacerla más intuitiva.
+  - **Gestión de recursos gráficos:** Renombramos y organizamos las capturas de pantalla correspondientes a las nuevas vistas:
+    - VistaMainRediseñada.png
+    - VistaListadoRediseñada.png
+    - VistaAgregarConsultaRediseñada.png
 
 - **Semana 4:**  
-  En la cuarta semana, se llevó a cabo una capacitación sobre el uso de Git y GitHub mediante los módulos de Microsoft Learn. Además, se avanzó en los aspectos gráficos y organizativos del proyecto.
+  En la cuarta semana del proyecto, realizamos las siguientes actividades:
+  - **Revisión de avances gráficos:** Se evaluaron los diseños de interfaz generados hasta el momento, incluyendo pantallas como “Añadir Consulta”, “Historial”, “Main” y el “Logo” del sistema.
+  - **Organización de recursos:** Se realizó una reestructuración de carpetas y archivos para mantener ordenado el entorno de trabajo.
 
 - **Semana 5:**  
-  En la quinta semana, se comenzaron los primeros avances en la programación utilizando Visual Studio Code (VSC), con la integración de la base de datos.
+  En la quinta semana del proyecto, realizamos las siguientes actividades:
+  - **Inicio de la fase de programación con Visual Studio Code (VSC):** Sentamos las bases del proyecto, con cada integrante asignando sus respectivas tareas en Visual Studio Code. Además, todos instalamos las extensiones necesarias para llevar a cabo el proyecto de forma óptima y sin complicaciones.
+  - **Implementación inicial de la base de datos en SQL Developer:** Realizamos la asignación de responsabilidades para cada integrante del grupo en el diseño colaborativo del sistema de base de datos. Se crearon las tablas necesarias para el proyecto y se configuraron las conexiones al sistema de base de datos, documentando el trabajo realizado.
 
 - **Semana 6:**  
-  Durante la sexta semana, se profundizó en la estructura y organización general del proyecto, con el objetivo de obtener una comprensión más clara del mismo y lograr una mejor distribución de las tareas dentro del equipo.
+  Durante la sexta semana del proyecto, realizamos las siguientes actividades:
+  - **Retroalimentación:** Basándonos en la retroalimentación proporcionada por el profesor Marcelo Crisóstomo sobre nuestra primera evaluación, agregamos ramas en nuestro proyecto de GitHub para que cada integrante pueda trabajar de manera independiente.
+  - **Planificación Estratégica del Proyecto:** Siguiendo las instrucciones proporcionadas en el Notion de la Semana 6, creamos un tablero en Jira y una carta Gantt para distribuir las tareas con un plazo de tiempo determinado.
+  LINK CARTA GANTT: [Carta Gantt](https://docs.google.com/spreadsheets/d/1c3QkWdsqGV5yM9EpvRcGAK7bTbtyMJmF/edit?usp=sharing&ouid=117040996252373578955&rtpof=true&sd=true)
+
+---
+
+Este README contiene el resumen semanal de avances del proyecto "VETTsafe". Cada semana refleja las actividades clave realizadas por el equipo y la evolución del desarrollo.
