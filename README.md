@@ -62,7 +62,7 @@ El objetivo del proyecto es desarrollar un sistema diseñado para gestionar la i
   Durante la sexta semana del proyecto, realizamos las siguientes actividades:
   - **Retroalimentación:** Basándonos en la retroalimentación proporcionada por el profesor Marcelo Crisóstomo sobre nuestra primera evaluación, agregamos ramas en nuestro proyecto de GitHub para que cada integrante pueda trabajar de manera independiente.
   - **Planificación Estratégica del Proyecto:** Siguiendo las instrucciones proporcionadas en el Notion de la Semana 6, creamos un tablero en Jira y una carta Gantt para distribuir las tareas con un plazo de tiempo determinado.
-  LINK CARTA GANTT: [Carta Gantt](https://docs.google.com/spreadsheets/d/1c3QkWdsqGV5yM9EpvRcGAK7bTbtyMJmF/edit?usp=sharing&ouid=117040996252373578955&rtpof=true&sd=true)
+  - LINK CARTA GANTT: [Carta Gantt](https://docs.google.com/spreadsheets/d/1c3QkWdsqGV5yM9EpvRcGAK7bTbtyMJmF/edit?usp=sharing&ouid=117040996252373578955&rtpof=true&sd=true)
 
 ---
 
