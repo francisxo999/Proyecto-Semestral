@@ -2,22 +2,21 @@
 
 ## 1. Descripción del Proyecto
 - **Descripción general:**  
-El objetivo del proyecto es desarrollar un sistema diseñado para gestionar la información de mascotas y sus consultas médicas de manera eficiente, utilizando la metodología CRUD. Este sistema permitirá registrar datos como el nombre, la especie, la raza y la edad de las mascotas, así como la información de sus dueños. El propósito es optimizar la administración en clínicas veterinarias, postas o centros de salud animal, reduciendo errores y mejorando el acceso a la información en tiempo real.
+El objetivo del proyecto es desarrollar un sistema para gestionar la información de mascotas y sus consultas médicas de manera eficiente, utilizando la metodología CRUD. Este sistema permitirá registrar datos de las mascotas y sus dueños, mejorando la administración en clínicas veterinarias y centros de salud animal.
 
 - **Tecnologías utilizadas:**  
-  - Python  
-  - DB Browser for SQLite  
-  - Figma
+  - **Python:** Lenguaje para la programación de la lógica del sistema y operaciones CRUD.  
+  - **DB Browser for SQLite:** Herramienta para gestionar la base de datos donde se almacenarán los registros.  
+  - **Figma:** Herramienta para diseñar las interfaces de usuario y mejorar la experiencia visual.
 
 - **Metodología de desarrollo:**  
   Se seguirá la metodología Scrum, con sprints semanales para organizar el trabajo y asegurar avances constantes.
 
 - **Vinculación con otras asignaturas:**  
-  El proyecto se vincula principalmente con las asignaturas de Base de Datos, Ingeniería en Software, Desarrollo Fullstack y Fundamentos de Programación.
+  Este proyecto se vincula con las asignaturas de Base de Datos, Ingeniería en Software, Desarrollo Fullstack y Fundamentos de Programación.
 
 ## 2. Equipo
 - **Integrantes del equipo:**  
-  Nos centraremos en avanzar de manera autónoma, pero siempre colaborando entre nosotros para lograr los mejores resultados.  
   - Javier Cataldo  
   - Cristóbal González  
   - Francisco Vera
@@ -30,19 +29,20 @@ El objetivo del proyecto es desarrollar un sistema diseñado para gestionar la i
 ## Resumen Semanal de Avances
 
 - **Semana 1:**  
-  En la primera semana se definió la idea general del proyecto, se creó la licencia correspondiente y se asignaron los roles para la organización inicial del trabajo.
+  Se definió la idea del sistema, se creó la licencia del proyecto y se planificaron las tareas iniciales.
 
 - **Semana 2:**  
-  En la segunda semana se inició el desarrollo técnico, comenzando con la creación de la estructura base del sistema y el diseño de las primeras interfaces de usuario.
+  Se desarrolló la estructura base en Python y el prototipo de la base de datos. Se diseñaron las primeras interfaces de usuario.
 
 - **Semana 3:**  
-  Durante la tercera semana, se realizaron mejoras en las interfaces, basándonos en el feedback recibido. Esto permitió optimizar la usabilidad y organizar mejor los recursos gráficos.
+  Se mejoraron las interfaces con la retroalimentación recibida, reorganizando las pantallas y mejorando la experiencia del usuario.
 
 - **Semana 4:**  
-  En la cuarta semana, se llevó a cabo una capacitación sobre el uso de Git y GitHub mediante los módulos de Microsoft Learn. Además, se avanzó en los aspectos gráficos y organizativos del proyecto.
+  Se revisaron los avances gráficos y se organizó el entorno de trabajo, reestructurando carpetas y archivos.
 
 - **Semana 5:**  
-  En la quinta semana, se comenzaron los primeros avances en la programación utilizando Visual Studio Code (VSC), con la integración de la base de datos.
+  Iniciamos la programación en Visual Studio Code, configuramos las extensiones necesarias y comenzamos con la implementación de la base de datos.
 
 - **Semana 6:**  
-  Durante la sexta semana, se profundizó en la estructura y organización general del proyecto, con el objetivo de obtener una comprensión más clara del mismo y lograr una mejor distribución de las tareas dentro del equipo.
+  Implementamos ramas en GitHub para el trabajo independiente del equipo, y creamos un tablero en Jira y una [Carta Gantt](https://docs.google.com/spreadsheets/d/1c3QkWdsqGV5yM9EpvRcGAK7bTbtyMJmF/edit?usp=sharing&ouid=117040996252373578955&rtpof=true&sd=true) para la planificación del proyecto. 
+
