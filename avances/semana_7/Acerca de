@@ -1,1 +1,10 @@
-Este es el primer avance de la estructura del programa que como equipo vamos a realizar en Python.
+Este es Resumen Semana 7
+
+En la septima semana del proyecto, realizamos las siguientes actividades:
+
+1. Comienzo de creacion de entidades y atributos en  Oracle sql Developer Data Modeler:
+   - Se comenzo a crear las entidades de Mascota, cliente y consulta detallada con sus respectivos atributos aplicando las claves primarias correspondientes, para despues de esto pasarlo a Sqldeveloper.
+   - Se establecieron las tareas del Tablero en jira (Backlog), cada integrante realizo una tarea en el tablero con lo pedido en las semanas que corresponden.
+
+2. Avance de diseño en Carta Gantt:
+   - Se establecieron nuevas tareas para la Carta Gantt con sus respectivos responsables.
