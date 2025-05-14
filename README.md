@@ -8,6 +8,8 @@ El objetivo del proyecto es desarrollar un sistema para gestionar la informació
   - **Python:** Lenguaje para la programación de la lógica del sistema y operaciones CRUD.  
   - **DB Browser for SQLite:** Herramienta para gestionar la base de datos donde se almacenarán los registros.  
   - **Figma:** Herramienta para diseñar las interfaces de usuario y mejorar la experiencia visual.
+  - **Excel:** Programa de hoja de cálculo de Microsoft utilizada para el desarrollo y organización de la Carta Gantt.
+  - **Jira:** Herramienta de gestión de proyectos para la organización de tareas dentro del equipo.
 
 - **Metodología de desarrollo:**  
   Se seguirá la metodología Scrum, con sprints semanales para organizar el trabajo y asegurar avances constantes.
