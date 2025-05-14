@@ -1,23 +1,48 @@
-### Proyecto Semestral: Vettsafe ###
+# Proyecto Semestral: VETTsafe
 
-### 1. Proyecto
-   - **Descripción general:** Crearemos un sistema diseñado para gestionar la información de mascotas y sus consultas médicas de manera eficiente con la metodología CRUD, esta permitirá registrar datos como el nombre, la especie, la raza y la edad, así como información de sus dueños. Su objetivo es optimizar la administración en clínicas, postas o centros veterinarios, reduciendo errores y mejorando el acceso a la información en tiempo real.
-   - **Tecnologías:** Python, Base de Datos (en conversaciones para ver cuál se utilizará), Figma.
-   - **Metodología de desarrollo:** Scrum (con sprints semanales) o Kanban (para flujo continuo).
-   - **Vinculación con otras asignaturas:** Puede relacionarse con bases de datos, desarrollo fullstack y fundamentos de programación.
+## 1. Descripción del Proyecto
+- **Descripción general:**  
+El objetivo del proyecto es desarrollar un sistema para gestionar la información de mascotas y sus consultas médicas de manera eficiente, utilizando la metodología CRUD. Este sistema permitirá registrar datos de las mascotas y sus dueños, mejorando la administración en clínicas veterinarias y centros de salud animal.
 
-### 2. Equipo
-   - **Equipo:** Nos centraremos en avanzar de manera autónoma, pero siempre ayudándonos entre nosotros.
-      - Javier Cataldo
-      - Cristobal Gonzalez
-      - Francisco Vera
-   - **Líder de equipo:** Francisco Vera.
+- **Tecnologías utilizadas:**  
+  - **Python:** Lenguaje para la programación de la lógica del sistema y operaciones CRUD.  
+  - **DB Browser for SQLite:** Herramienta para gestionar la base de datos donde se almacenarán los registros.  
+  - **Figma:** Herramienta para diseñar las interfaces de usuario y mejorar la experiencia visual.
+
+- **Metodología de desarrollo:**  
+  Se seguirá la metodología Scrum, con sprints semanales para organizar el trabajo y asegurar avances constantes.
+
+- **Vinculación con otras asignaturas:**  
+  Este proyecto se vincula con las asignaturas de Base de Datos, Ingeniería en Software, Desarrollo Fullstack y Fundamentos de Programación.
+
+## 2. Equipo
+- **Integrantes del equipo:**  
+  - Javier Cataldo  
+  - Cristóbal González  
+  - Francisco Vera
+
+- **Líder de equipo:**  
+  Francisco Vera
 
 ---
 
-### Resumen semana por semana:
+## Resumen Semanal de Avances
 
-- **Semana 1:** En la primera semana se definió la idea del proyecto, se creó la licencia y se asignaron roles para la organización inicial.
-- **Semana 2:** En la segunda semana se inició el desarrollo técnico, creando la estructura base y las primeras interfaces.
-- **Semana 3:** En la tercera semana se rediseñaron interfaces con base en feedback, mejorando la usabilidad y ordenando los recursos gráficos.
-- **Semana 4:** En la cuarta semana comenzó la capacitación técnica en programación y se revisaron avances gráficos y organizativos.
+- **Semana 1:**  
+  Se definió la idea del sistema, se creó la licencia del proyecto y se planificaron las tareas iniciales.
+
+- **Semana 2:**  
+  Se desarrolló la estructura base en Python y el prototipo de la base de datos. Se diseñaron las primeras interfaces de usuario.
+
+- **Semana 3:**  
+  Se mejoraron las interfaces con la retroalimentación recibida, reorganizando las pantallas y mejorando la experiencia del usuario.
+
+- **Semana 4:**  
+  Se revisaron los avances gráficos y se organizó el entorno de trabajo, reestructurando carpetas y archivos.
+
+- **Semana 5:**  
+  Iniciamos la programación en Visual Studio Code, configuramos las extensiones necesarias y comenzamos con la implementación de la base de datos.
+
+- **Semana 6:**  
+  Implementamos ramas en GitHub para el trabajo independiente del equipo, y creamos un tablero en Jira y una [Carta Gantt](https://docs.google.com/spreadsheets/d/1c3QkWdsqGV5yM9EpvRcGAK7bTbtyMJmF/edit?usp=sharing&ouid=117040996252373578955&rtpof=true&sd=true) para la planificación del proyecto. 
+

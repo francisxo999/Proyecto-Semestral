@@ -1,8 +1,9 @@
-##Permitirá registrar datos como el nombre, la especie, la raza y la edad
-##,así como la información de sus dueños.
+## Permitirá registrar datos como el nombre, la especie, la raza y la edad, así como la información de sus dueños.
+
 mascota=[]
 cliente=[]
 flag = True
+
 print("\n***Veterinaria***\n")
 while flag:
     try:
