@@ -1,13 +1,11 @@
-Resumen de la semana 5
+Resumen Semana 5
 
-En la quinta semana del proyecto, realizamos estas actividades:
+En la quinta semana del proyecto, realizamos las siguientes actividades:
 
-1.-Se inicio la fase de programacion con Visual Studio Code (VSC)
-  -Sentamos las bases del proyecto, cada uno con su respectivas tareas en el Visual studio code con el objetivo de determinado.
-  -Todos instalamos las extensiones necesarias para llevar a cabo un proyecto optimo y sin complicidades aprovechando las          ventajas que tiene este lenguaje de programacion.
+1. Inicio de la fase de programación con Visual Studio Code (VSC):
+   - Sentamos las bases del proyecto, con cada integrante asignando sus respectivas tareas en Visual Studio Code, con el objetivo de cumplir con lo determinado.
+   - Todos instalamos las extensiones necesarias para llevar a cabo el proyecto de forma óptima y sin complicaciones, aprovechando las ventajas de este entorno de programación.
 
-2.-Implimentacion inicial de la base de datos en SQL Developer
-  -Realizamos la asignacion de responsabilidades para cada integrante del grupo con el diseño colaborativo del sistema de datos.
-  -Se crearon las respectivas tablas necesarias del proyecto, configuracion de conexiones del sistema base de datos, con una       documentacion tecnica como grupo y una retroaliomentacion de esta.
-
-
+2. Implementación inicial de la base de datos:
+   - Realizamos la asignación de responsabilidades para cada integrante del grupo en el diseño colaborativo del sistema de base de datos.
+   - Se crearon las respectivas tablas necesarias para el proyecto, se configuraron las conexiones al sistema de base de datos y se documentó el trabajo realizado, con retroalimentación del equipo.
