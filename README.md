@@ -44,5 +44,10 @@ El objetivo del proyecto es desarrollar un sistema para gestionar la informació
   Iniciamos la programación en Visual Studio Code, configuramos las extensiones necesarias y comenzamos con la implementación de la base de datos.
 
 - **Semana 6:**  
-  Implementamos ramas en GitHub para el trabajo independiente del equipo, y creamos un tablero en Jira y una [Carta Gantt](https://docs.google.com/spreadsheets/d/1c3QkWdsqGV5yM9EpvRcGAK7bTbtyMJmF/edit?usp=sharing&ouid=117040996252373578955&rtpof=true&sd=true) para la planificación del proyecto. 
+  Implementamos ramas en GitHub para el trabajo independiente del equipo, y creamos un tablero en Jira y una [Carta Gantt](https://docs.google.com/spreadsheets/d/1c3QkWdsqGV5yM9EpvRcGAK7bTbtyMJmF/edit?usp=sharing&ouid=117040996252373578955&rtpof=true&sd=true) para la planificación del proyecto.
+- **Semana 7:**
+  Se realizaron ajustes en los nombres de los archivos para mantener una nomenclatura consistente, incluyendo capturas de pantalla y documentos. Se avanzó en la implementación de 
+  funciones CRUD en Python y se actualizó el resumen semanal.
+
+
 
