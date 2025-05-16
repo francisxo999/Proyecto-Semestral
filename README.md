@@ -4,10 +4,13 @@
 - **Descripción general:**
 El objetivo del proyecto es desarrollar un sistema para gestionar la información de mascotas y sus consultas médicas de manera eficiente, utilizando la metodología CRUD. Este sistema permitirá registrar datos de las mascotas y sus dueños, mejorando la administración en clínicas veterinarias y centros de salud animal.
 
-- **Tecnologías utilizadas:**
-  - Python: Lenguaje para la programación de la lógica del sistema y operaciones CRUD.
-  - DB Browser for SQLite: Herramienta para gestionar la base de datos.
-  - Figma: Herramienta para diseñar interfaces de usuario.
+- **Tecnologías utilizadas:**  
+  - **Python:** Lenguaje para la programación de la lógica del sistema y operaciones CRUD.  
+  - **DB Browser for SQLite:** Herramienta para gestionar la base de datos donde se almacenarán los registros.  
+  - **Figma:** Herramienta para diseñar las interfaces de usuario y mejorar la experiencia visual.
+  - **Excel:** Programa de hoja de cálculo de Microsoft utilizado para el desarrollo y organización de la Carta Gantt.
+  - **Jira:** Herramienta de gestión de proyectos para la organización de tareas dentro del equipo.
+
 
 - **Metodología de desarrollo:**
 Se sigue la metodología Scrum con sprints semanales para organización y avance constante.
@@ -44,4 +47,8 @@ Implementación de ramas en GitHub, creación de tablero Jira y Carta Gantt para
 - **Semana 7:**
 Estandarización de nombres de archivos, avance en funciones CRUD y actualización de documentación.
 
+- **Semana 6:**  
+  Implementamos ramas en GitHub para el trabajo independiente del equipo, y creamos un tablero en [Jira](https://vettsafe.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiNjFhMWQzOTVmZDQ3NDUxYTlkZjlkMmRlMjdkMWU4ZWIiLCJwIjoiaiJ9) y una [Carta Gantt](https://docs.google.com/spreadsheets/d/1c3QkWdsqGV5yM9EpvRcGAK7bTbtyMJmF/edit?usp=sharing&ouid=117040996252373578955&rtpof=true&sd=true) para la planificación del proyecto.
 
+- **Semana 7:**  
+  Estandarización de nombres de archivos, avance en funciones CRUD y actualización de documentación.
