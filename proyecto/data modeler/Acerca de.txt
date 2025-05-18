@@ -1,0 +1,1 @@
+En esta carpeta se encuentra el archivo y las capturas de pantalla como ejemplo, mostrando como se veria el modelo logico y el modelo racional del proyecto,,
