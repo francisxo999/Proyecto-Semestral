@@ -1,0 +1,2 @@
+Acerca de esta carpeta, esta en el archivo y las capturas de pantalla del proyecto, 
+mostrando como se veria el modelo logico y el modelo racional,,
