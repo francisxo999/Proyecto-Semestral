@@ -1,0 +1,2 @@
+Acá se encuentra la base de datos del proyecto Vettsafe, basandose en el data modeler que se realizo la semana 7,
+teniendo la base del proyecto en si.
