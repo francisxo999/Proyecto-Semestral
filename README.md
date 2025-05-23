@@ -52,7 +52,6 @@ Este proyecto se vincula con las asignaturas de Base de Datos, Ingeniería en So
   Se actualizaron y renombraron archivos y capturas en el repositorio, organizándolos de manera clara por temáticas como Base de Datos, Jira y Carta Gantt. Además, se integraron estos elementos al repositorio para mantener un registro visual del progreso.
 
 - **Semana 8:**
-  
   Se desarrollo la base de datos del proyecto en SQL Developer, donde el usuario VETTSAFE ya puede agregar datos a las correspondientes tablas, como es la de la mascota,
   que es donde se le pide ingresar el n°chip que vedria siendo la clave primaria de esa tabla, el nombre, fecha de nacimiento y otro tipo de datos son los solicitados para
   completar los datos de la tabla.
