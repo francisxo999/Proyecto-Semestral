@@ -48,10 +48,8 @@ Este proyecto se vincula con las asignaturas de Base de Datos, Ingeniería en So
 - **Semana 6:**  
   Implementamos ramas en GitHub para el trabajo independiente del equipo, y creamos un tablero en [Jira](https://vettsafe.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiNjFhMWQzOTVmZDQ3NDUxYTlkZjlkMmRlMjdkMWU4ZWIiLCJwIjoiaiJ9) y una [Carta Gantt](https://docs.google.com/spreadsheets/d/1c3QkWdsqGV5yM9EpvRcGAK7bTbtyMJmF/edit?usp=sharing&ouid=117040996252373578955&rtpof=true&sd=true) para la planificación del proyecto.
 
-- **Semana 7:**  
-  Se actualizaron y renombraron archivos y capturas en el repositorio, organizándolos de manera clara por temáticas como Base de Datos, Jira y Carta Gantt. Además, se integraron estos elementos al repositorio para mantener un registro visual del progreso.
+- Semana 7:  
+  Se organizaron y actualizaron archivos del repositorio, incluyendo capturas y documentos relacionados con la Base de Datos, Jira y la Carta Gantt, para mejorar la claridad y el seguimiento del proyecto.
 
-- **Semana 8:**
-  Se desarrollo la base de datos del proyecto en SQL Developer, donde el usuario VETTSAFE ya puede agregar datos a las correspondientes tablas, como es la de la mascota,
-  que es donde se le pide ingresar el n°chip que vendria siendo la clave primaria de esa tabla, entre este y otros tipo de datos son los solicitados para
-  completar los datos de las tablas.
+- Semana 8:  
+  Se avanzó en el desarrollo de la base de datos en SQL y el código en Visual Studio Code, logrando la conexión de la base de datos junto con las primeras dos entidades: CLIENTE y MASCOTA, agregando los datos de manera sencilla y efectiva.
