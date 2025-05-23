@@ -1,48 +1,85 @@
 import tkinter as tk
+from modelo.mascotaDao import Mascota, guardarDatosMascota
 
 class Frame(tk.Frame):
     def __init__(self, root):
-        
-        super().__init__(root, width= 1280, height=720)
+        super().__init__(root, width=1280, height=720)
         self.root = root
-        self.pack() 
-        self.config(bg= '#FFFFFF') 
+        self.root.title("VETTsafe")
+        self.root.resizable(False, False)
+        self.pack()
+        self.config(bg='#BAC3FF')
         self.camposMascota()
+        self.camposDueno()
+        self.botones()
 
     def camposMascota(self):
-        self.lblNombre = tk.Label(self, text='Nombre del animal: ')
-        self.lblNombre.config(font=('Arial', 15), bg='#FFFFFF')
-        self.lblNombre.grid(column=0, row=0, padx=10, pady=5)
+        labels = ['Nombre del animal', 'Especie', 'Raza', 'N° Chip', 'Fecha de nacimiento',
+                  'Sexo', 'Peso', 'Edad', 'Color', 'Diagnóstico']
+        self.entriesMascota = {}
+        tk.Label(self, text='🐾 Datos de la Mascota', font=('Arial', 16, 'bold'), bg='#BAC3FF')\
+          .grid(column=0, row=0, columnspan=2, pady=10)
+        for i, label in enumerate(labels):
+            tk.Label(self, text=label + ':', font=('Arial', 13), bg='#BAC3FF')\
+              .grid(column=0, row=i+1, sticky='e', padx=10, pady=3)
+            sv = tk.StringVar()
+            entry = tk.Entry(self, textvariable=sv, font=('Arial', 13), width=40)
+            entry.grid(column=1, row=i+1, padx=10, pady=3)
+            self.entriesMascota[label] = sv
 
-        self.lblEspecie = tk.Label(self, text='Especie: ')
-        self.lblEspecie.config(font=('Arial', 15), bg='#FFFFFF')
-        self.lblEspecie.grid(column=0, row=1, padx=10, pady=5)
+    def camposDueno(self):
+        labels = ['Nombre del dueño', 'Correo electrónico', 'Teléfono']
+        self.entriesDueno = {}
+        tk.Label(self, text='👤 Datos del Dueño', font=('Arial', 16, 'bold'), bg='#BAC3FF')\
+          .grid(column=2, row=0, columnspan=2, pady=10)
+        for i, label in enumerate(labels):
+            tk.Label(self, text=label + ':', font=('Arial', 13), bg='#BAC3FF')\
+              .grid(column=2, row=i+1, sticky='e', padx=10, pady=3)
+            sv = tk.StringVar()
+            entry = tk.Entry(self, textvariable=sv, font=('Arial', 13), width=40)
+            entry.grid(column=3, row=i+1, padx=10, pady=3)
+            self.entriesDueno[label] = sv
 
-        self.lblNroChip = tk.Label(self, text='N° Chip: ')
-        self.lblNroChip.config(font=('Arial', 15), bg='#FFFFFF')
-        self.lblNroChip.grid(column=0, row=2, padx=10, pady=5)
+    def botones(self):
+        self.botonesFrame = tk.Frame(self, bg='#BAC3FF')
+        self.botonesFrame.grid(column=0, row=12, columnspan=4, pady=20)
 
-        self.lblFechaNacimiento = tk.Label(self, text='Fecha de Nacimiento: ')
-        self.lblFechaNacimiento.config(font=('Arial', 15), bg='#FFFFFF')
-        self.lblFechaNacimiento.grid(column=0, row=3, padx=10, pady=5)
-        
-        self.lblSexo = tk.Label(self, text='Sexo: ')
-        self.lblSexo.config(font=('Arial', 15), bg='#FFFFFF')
-        self.lblSexo.grid(column=0, row=4, padx=10, pady=5)
-        
-        self.lblDiagnostico = tk.Label(self, text='Diagnostico: ')
-        self.lblDiagnostico.config(font=('Arial', 15), bg='#FFFFFF')
-        self.lblDiagnostico.grid(column=0, row=5, padx=10, pady=5)
-        
-        self.lblRaza = tk.Label(self, text='Raza: ')
-        self.lblRaza.config(font=('Arial', 15), bg='#FFFFFF')
-        self.lblRaza.grid(column=0, row=6, padx=10, pady=5)
+        tk.Button(self.botonesFrame, text='Nuevo', command=self.limpiarCampos,
+                  width=15, font=('Arial', 12, 'bold'), fg='#fff', bg='#7289da', cursor='hand2')\
+          .pack(side='left', padx=10)
 
-        self.lblPeso = tk.Label(self, text='Peso: ')
-        self.lblPeso.config(font=('Arial', 15), bg='#FFFFFF')
-        self.lblPeso.grid(column=0, row=7, padx=10, pady=5)
-        
-        self.lblEdad = tk.Label(self, text='Edad: ')
-        self.lblEdad.config(font=('Arial', 15), bg='#FFFFFF')
-        self.lblEdad.grid(column=0, row=6, padx=10, pady=5)
+        tk.Button(self.botonesFrame, text='Guardar', command=self.guardarMascota,
+                  width=15, font=('Arial', 12, 'bold'), fg='#fff', bg='#007d8f', cursor='hand2')\
+          .pack(side='left', padx=10)
 
+        tk.Button(self.botonesFrame, text='Cancelar', command=self.limpiarCampos,
+                  width=15, font=('Arial', 12, 'bold'), fg='#fff', bg='#dc3545', cursor='hand2')\
+          .pack(side='left', padx=10)
+
+    def limpiarCampos(self):
+        for sv in self.entriesMascota.values():
+            sv.set('')
+        for sv in self.entriesDueno.values():
+            sv.set('')
+
+    def guardarMascota(self):
+        try:
+            mascota = Mascota(
+                n_chip=self.entriesMascota['N° Chip'].get(),
+                nombre=self.entriesMascota['Nombre del animal'].get(),
+                especie=self.entriesMascota['Especie'].get(),
+                raza=self.entriesMascota['Raza'].get(),
+                peso=float(self.entriesMascota['Peso'].get() or 0),
+                fecha_nacimiento=self.entriesMascota['Fecha de nacimiento'].get(),
+                sexo=self.entriesMascota['Sexo'].get(),
+                diagnostico=self.entriesMascota['Diagnóstico'].get(),
+                color=self.entriesMascota['Color'].get(),
+                cliente_nombre=self.entriesDueno['Nombre del dueño'].get(),
+                cliente_correo=self.entriesDueno['Correo electrónico'].get(),
+                cliente_telefono=self.entriesDueno['Teléfono'].get()
+            )
+            guardarDatosMascota(mascota)
+            self.limpiarCampos()
+        except Exception as e:
+            from tkinter import messagebox
+            messagebox.showerror("Error", f"No se pudo guardar la mascota:\n{e}")
