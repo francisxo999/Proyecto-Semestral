@@ -4,29 +4,31 @@
 - **Descripción general:**  
 El objetivo del proyecto es desarrollar un sistema para gestionar la información de mascotas y sus consultas médicas de manera eficiente, utilizando la metodología CRUD. Este sistema permitirá registrar datos de las mascotas y sus dueños, mejorando la administración en clínicas veterinarias y centros de salud animal.
 
-- **Tecnologías utilizadas:**  
-  - **Python:** Lenguaje para la programación de la lógica del sistema y operaciones CRUD.  
-  - **DB Browser for SQLite:** Herramienta para gestionar la base de datos donde se almacenarán los registros.  
-  - **Figma:** Herramienta para diseñar las interfaces de usuario y mejorar la experiencia visual.
+> Este proyecto está disponible bajo la [Licencia MIT](https://github.com/francisxo999/Proyecto-Semestral/blob/main/LICENSE).
 
-- **Metodología de desarrollo:**  
-  Se seguirá la metodología Scrum, con sprints semanales para organizar el trabajo y asegurar avances constantes.
+## 2. Tecnologías Utilizadas
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="22"/>  **Python:** Lenguaje para la programación de la lógica del sistema y operaciones CRUD.
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="Visual Studio Code" width="20"/> **Visual Studio Code:** Editor de código fuente usado para programar y organizar los archivos del sistema.  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="DB Browser for SQLite" width="22"/>  **DB Browser for SQLite:** Herramienta para gestionar la base de datos donde se almacenarán los registros.  
+- <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" width="15"/>  **Figma:** Herramienta para diseñar las interfaces de usuario y mejorar la experiencia visual.  
+- <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel" width="20"/> **Excel:** Programa de hoja de cálculo de Microsoft utilizado para el desarrollo y organización de la Carta Gantt.  
+- <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Jira_Logo.svg" alt="Jira" width="38"/> **Jira:** Herramienta de gestión de proyectos para la organización de tareas dentro del equipo.
 
-- **Vinculación con otras asignaturas:**  
-  Este proyecto se vincula con las asignaturas de Base de Datos, Ingeniería en Software, Desarrollo Fullstack y Fundamentos de Programación.
+## 3. Metodología de desarrollo
+Se seguirá la metodología Scrum, con sprints semanales para organizar el trabajo y asegurar avances constantes.
 
-## 2. Equipo
-- **Integrantes del equipo:**  
-  - Javier Cataldo  
-  - Cristóbal González  
-  - Francisco Vera
+## 4. Vinculación con otras asignaturas  
+Este proyecto se vincula con las asignaturas de Base de Datos, Ingeniería en Software, Desarrollo Fullstack y Fundamentos de Programación.
 
-- **Líder de equipo:**  
-  Francisco Vera
+## 5. Equipo
 
----
+| Nombre             | Rol              |
+|--------------------|------------------|
+| Francisco Vera     | Líder de equipo  |
+| Javier Cataldo     | Encargado de Base de Datos y Codificación       |
+| Cristóbal González | Encargado de la Codificación       |
 
-## Resumen Semanal de Avances
+## 6. Resumen Semanal de Avances
 
 - **Semana 1:**  
   Se definió la idea del sistema, se creó la licencia del proyecto y se planificaron las tareas iniciales.
@@ -44,5 +46,12 @@ El objetivo del proyecto es desarrollar un sistema para gestionar la informació
   Iniciamos la programación en Visual Studio Code, configuramos las extensiones necesarias y comenzamos con la implementación de la base de datos.
 
 - **Semana 6:**  
-  Implementamos ramas en GitHub para el trabajo independiente del equipo, y creamos un tablero en Jira y una [Carta Gantt](https://docs.google.com/spreadsheets/d/1c3QkWdsqGV5yM9EpvRcGAK7bTbtyMJmF/edit?usp=sharing&ouid=117040996252373578955&rtpof=true&sd=true) para la planificación del proyecto. 
+  Implementamos ramas en GitHub para el trabajo independiente del equipo, y creamos un tablero en [Jira](https://vettsafe.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiNjFhMWQzOTVmZDQ3NDUxYTlkZjlkMmRlMjdkMWU4ZWIiLCJwIjoiaiJ9) y una [Carta Gantt](https://docs.google.com/spreadsheets/d/1c3QkWdsqGV5yM9EpvRcGAK7bTbtyMJmF/edit?usp=sharing&ouid=117040996252373578955&rtpof=true&sd=true) para la planificación del proyecto.
 
+- **Semana 7:**  
+  Se actualizaron y renombraron archivos y capturas en el repositorio, organizándolos de manera clara por temáticas como Base de Datos, Jira y Carta Gantt. Además, se integraron estos elementos al repositorio para mantener un registro visual del progreso.
+
+- **Semana 8:**
+  Se desarrollo la base de datos del proyecto en SQL Developer, donde el usuario VETTSAFE ya puede agregar datos a las correspondientes tablas, como es la de la mascota,
+  que es donde se le pide ingresar el n°chip que vendria siendo la clave primaria de esa tabla, entre este y otros tipo de datos son los solicitados para
+  completar los datos de las tablas.
