@@ -1,4 +1,4 @@
-# Proyecto Semestral: VETTsafe
+# Proyecto Semestral: VETTsafe 🐾
 
 ## 1. Descripción del Proyecto
 - **Descripción general:**  
