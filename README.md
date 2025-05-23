@@ -53,5 +53,5 @@ Este proyecto se vincula con las asignaturas de Base de Datos, Ingeniería en So
 
 - **Semana 8:**
   Se desarrollo la base de datos del proyecto en SQL Developer, donde el usuario VETTSAFE ya puede agregar datos a las correspondientes tablas, como es la de la mascota,
-  que es donde se le pide ingresar el n°chip que vedria siendo la clave primaria de esa tabla, el nombre, fecha de nacimiento y otro tipo de datos son los solicitados para
+  que es donde se le pide ingresar el n°chip que vendria siendo la clave primaria de esa tabla, entre este y otros tipo de datos son los solicitados para
   completar los datos de la tabla.
