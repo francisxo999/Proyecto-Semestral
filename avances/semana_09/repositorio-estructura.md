@@ -1,7 +1,7 @@
 ```
 Proyecto-Semestral/
-├── semanas/
-│ ├── semana_01/ 1
+├── avances/
+│ ├── semana_01/ 
 │ ├── semana_02/ 
 │ ├── ... # Semanas 3 a 10
 │
@@ -12,7 +12,6 @@ Proyecto-Semestral/
 │ └── mascota/ 
 ├── historiaMedica.py
 │
-├── avances
 ├── LICENSE
 └── README.md 
 ```
