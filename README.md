@@ -26,9 +26,12 @@ Se sigue la metodología Scrum, con sprints semanales para organizar el trabajo 
 
 ## Diseño de interfaces
 - **Figma:**  
-  [Prototipo de diseño](https://www.figma.com/proto/dW6zv0OQ8aZEJCwbGtbomC/Vettsafe?node-id=15-115&starting-point-node-id=15%3A115) 
+  [Prototipo de diseño](https://www.figma.com/proto/dW6zv0OQ8aZEJCwbGtbomC/Vettsafe?node-id=15-115&starting-point-node-id=15%3A115)  
 
-Las diferencias entre el prototipo de figma y el proyecto final se basa en que el prototipo final ya tiene la respectica base de datos, con las opciones necesarias ya sea añadir una consulta, editarla o cancelarla. Al momento de añadir una consulta esta queda guardada en la base de datos cosa que en el prototipo no estaba, tambien la inferfaz siendo mas intuitiva con añadiendo colores para las opciones que corresponden.
+Diferencias entre prototipo y proyecto final:
+- Implementación de la base de datos
+- Funcionalidades CRUD operativas (añadir y ver)
+- Persistencia de datos (las consultas quedan guardadas en la base de datos)
 
 ## 4. Vinculación con otras asignaturas  
 Este proyecto se vincula con las asignaturas de Base de Datos, Ingeniería en Software, Desarrollo Fullstack y Fundamentos de Programación.
