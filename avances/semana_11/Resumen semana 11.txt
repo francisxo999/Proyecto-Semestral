@@ -1,1 +1,8 @@
+Resumen Semana 11
 
+En la onceava semana del proyecto, realizamos las siguientes actividades:
+
+1. Actualizacion carta Gantt:
+  -Se edito y se actualizo la carta Gantt, se agregaron nuevos sprints partiendo desde el sprint n°3
+2. Nuevas Tareas en Jira:
+   - Se agregaron nuevas actividades en el tablero Jira y se ha asignado las tareas a los integrantes del proyecto.
