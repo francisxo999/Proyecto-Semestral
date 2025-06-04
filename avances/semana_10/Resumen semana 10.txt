@@ -1,0 +1,8 @@
+Resumen Semana 10
+
+En la decima semana del proyecto, realizamos las siguientes actividades:
+
+1. Actualizacion carpetas del repositorio:
+   - Se actualizaron los digitos de todas las carpetas de "avances" para que asi se vea más ordenado, ya que al agregar la semana_10, se     
+     desordenaron las carpetas.
+2. 
