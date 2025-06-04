@@ -15,11 +15,18 @@ El objetivo del proyecto es desarrollar un sistema para gestionar la informació
 - <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Jira_Logo.svg" alt="Jira" width="38"/> **Jira:** Herramienta de gestión de proyectos utilizada para organizar las tareas del equipo.
 
 ## 3. Metodología de desarrollo
-Se sigue la metodología **Scrum**, con sprints semanales para organizar el trabajo y asegurar avances constantes.
+Se sigue la metodología Scrum, con sprints semanales para organizar el trabajo y asegurar avances constantes.
 
-## Link de :[Jira](https://vettsafe.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?selectedIssue=SCRUM-24)
+## Herramientas de gestión
+- **Jira:**  
+  [Tablero de proyectos en Jira](https://vettsafe.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiNjFhMWQzOTVmZDQ3NDUxYTlkZjlkMmRlMjdkMWU4ZWIiLCJwIjoiaiJ9)  
 
-## Link de :[Figma](https://www.figma.com/design/dW6zv0OQ8aZEJCwbGtbomC/Vettsafe?node-id=0-1&p=f&t=iprcYy6WfcoYQaAd-0)
+- **Carta Gantt:**  
+  [Documento de planificación temporal](https://docs.google.com/spreadsheets/d/1c3QkWdsqGV5yM9EpvRcGAK7bTbtyMJmF/edit?usp=sharing&ouid=117040996252373578955&rtpof=true&sd=true)  
+
+## Diseño de interfaces
+- **Figma:**  
+  [Prototipo de diseño](https://www.figma.com/proto/dW6zv0OQ8aZEJCwbGtbomC/Vettsafe?node-id=15-115&starting-point-node-id=15%3A115) 
 
 Las diferencias entre el prototipo de figma y el proyecto final se basa en que el prototipo final ya tiene la respectica base de datos, con las opciones necesarias ya sea añadir una consulta, editarla o cancelarla. Al momento de añadir una consulta esta queda guardada en la base de datos cosa que en el prototipo no estaba, tambien la inferfaz siendo mas intuitiva con añadiendo colores para las opciones que corresponden.
 
