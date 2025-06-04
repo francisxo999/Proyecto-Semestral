@@ -10,4 +10,4 @@ En la onceava semana del proyecto, realizamos las siguientes actividades:
    - En el readme, en la parte de metodología de desarrollo se agrego el link del Jira y del Figma, con el fin de que se pueda ver 
      las tareas pendientes o realizadas y el prototipo base que desarrollamos del proyecto.
 4. Busqueda API:
-   - uno dos tres
+   - Se realizo una investigacion acerca de las APIs para integrar una a nuestro sistema.
