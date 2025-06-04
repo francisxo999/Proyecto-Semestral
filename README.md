@@ -17,7 +17,7 @@ El objetivo del proyecto es desarrollar un sistema para gestionar la informació
 ## 3. Metodología de desarrollo
 Se sigue la metodología **Scrum**, con sprints semanales para organizar el trabajo y asegurar avances constantes.
 
-## Link de :(https://vettsafe.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?selectedIssue=SCRUM-24).
+## Link de :[Jira](https://vettsafe.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?selectedIssue=SCRUM-24).
 
 ## Link de :[Figma](https://www.figma.com/design/dW6zv0OQ8aZEJCwbGtbomC/Vettsafe?node-id=0-1&p=f&t=iprcYy6WfcoYQaAd-0).
 
