@@ -21,7 +21,7 @@ Se sigue la metodología **Scrum**, con sprints semanales para organizar el trab
 
 ## Link de :[Figma](https://www.figma.com/design/dW6zv0OQ8aZEJCwbGtbomC/Vettsafe?node-id=0-1&p=f&t=iprcYy6WfcoYQaAd-0)
 
-Las diferencias entre el prototipo de figma y el proyecto final se basa en que el prototipo final ya tiene la respectica base de datos, con las opciones necesarias ya sea añadir una consulta, editarla o cancelarla. Al momento de añadir una consulta esta quueda guardada en la base de datos cosa que en el prototipo no estaba, tambien la inferfaz siendo mas intuitiva con añadiendo colores para las opciones que corresponden.
+Las diferencias entre el prototipo de figma y el proyecto final se basa en que el prototipo final ya tiene la respectica base de datos, con las opciones necesarias ya sea añadir una consulta, editarla o cancelarla. Al momento de añadir una consulta esta queda guardada en la base de datos cosa que en el prototipo no estaba, tambien la inferfaz siendo mas intuitiva con añadiendo colores para las opciones que corresponden.
 
 ## 4. Vinculación con otras asignaturas  
 Este proyecto se vincula con las asignaturas de Base de Datos, Ingeniería en Software, Desarrollo Fullstack y Fundamentos de Programación.
