@@ -2,7 +2,7 @@
 
 ## 1. Descripción del Proyecto
 - **Descripción general:**  
-El objetivo del proyecto es desarrollar un sistema para gestionar la información de mascotas y sus consultas médicas de manera eficiente, utilizando la metodología CRUD. Este sistema permitirá registrar datos de las mascotas y sus dueños, mejorando la administración en clínicas veterinarias y centros de salud animal.
+  El objetivo del proyecto es desarrollar un sistema para gestionar la información de mascotas y sus consultas médicas de manera eficiente, utilizando la metodología CRUD. Este sistema permitirá registrar datos de las mascotas y sus dueños, mejorando la administración en clínicas veterinarias y centros de salud animal.
 
 > Este proyecto está disponible bajo la [Licencia MIT](https://github.com/francisxo999/Proyecto-Semestral/blob/main/LICENSE).
 
@@ -14,37 +14,39 @@ El objetivo del proyecto es desarrollar un sistema para gestionar la informació
 - <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel" width="20"/> **Excel:** Usado para desarrollar y organizar la Carta Gantt del proyecto.  
 - <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Jira_Logo.svg" alt="Jira" width="38"/> **Jira:** Herramienta de gestión de proyectos utilizada para organizar las tareas del equipo.
 
-## 3. Metodología de desarrollo
+## 3. Metodología de Desarrollo
 Se sigue la metodología Scrum, con sprints semanales para organizar el trabajo y asegurar avances constantes.
 
-## Herramientas de gestión
+## 4. Herramientas de Gestión
+
 - **Jira:**  
   [Tablero de proyectos en Jira](https://vettsafe.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiNjFhMWQzOTVmZDQ3NDUxYTlkZjlkMmRlMjdkMWU4ZWIiLCJwIjoiaiJ9)  
 
 - **Carta Gantt:**  
   [Documento de planificación temporal](https://docs.google.com/spreadsheets/d/1c3QkWdsqGV5yM9EpvRcGAK7bTbtyMJmF/edit?usp=sharing&ouid=117040996252373578955&rtpof=true&sd=true)  
 
-## Diseño de interfaces
+## 5. Diseño de Interfaces
+
 - **Figma:**  
   [Prototipo de diseño](https://www.figma.com/proto/dW6zv0OQ8aZEJCwbGtbomC/Vettsafe?node-id=15-115&starting-point-node-id=15%3A115)  
 
-Diferencias entre prototipo y proyecto final:
+**Diferencias entre prototipo y proyecto final:**
 - Implementación de la base de datos
 - Funcionalidades CRUD operativas (añadir y ver)
 - Persistencia de datos (las consultas quedan guardadas en la base de datos)
 
-## 4. Vinculación con otras asignaturas  
+## 6. Vinculación con Otras Asignaturas  
 Este proyecto se vincula con las asignaturas de Base de Datos, Ingeniería en Software, Desarrollo Fullstack y Fundamentos de Programación.
 
-## 5. Equipo
+## 7. Equipo
 
-| Nombre             | Rol                                  |
-|--------------------|---------------------------------------|
-| Francisco Vera     | Líder de equipo                      |
-| Javier Cataldo     | Encargado de Base de Datos y Codificación |
-| Cristóbal González | Encargado de la Codificación         |
+| Nombre             | Rol                                       |
+|--------------------|--------------------------------------------|
+| Francisco Vera     | Líder de equipo                            |
+| Javier Cataldo     | Encargado de Base de Datos y Codificación  |
+| Cristóbal González | Encargado de la Codificación               |
 
-## 6. Resumen Semanal de Avances
+## 8. Resumen Semanal de Avances
 
 - **Semana 1:**  
   Se definió la idea del sistema, se creó la licencia del proyecto y se planificaron las tareas iniciales.
