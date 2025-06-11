@@ -1,5 +1,0 @@
-Resumen Semana 8
-
-En la octava semana del proyecto, se realizo la la base de datos del proyecto,
-teniendo al usuario y las tablas creadas en el SQL DEVELOPER.
-
