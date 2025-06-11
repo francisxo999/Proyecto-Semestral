@@ -1,9 +1,9 @@
 Resumen Semana 9
 
-En la novena semana del proyecto, realizamos las siguientes actividades:  
+Durante la semana 9 del proyecto, se llevaron a cabo las siguientes actividades:
 
-1. Codificación:  
-   - Se desarrollaró codigo en Visual Studio Code, al igual que en la semana 8, revisando un poco los def() y la conexión a la base de datos. 
+1. Codificación inicial:  
+   - Se continuó desarrollando código en Visual Studio Code, reforzando el uso de funciones (def) y la conexión a la base de datos.
 
-2. Evaluación:  
-   - Le presentamos nuestro proyecto (hasta el momento) al docente y él nos evaluó y nos dió una retroalimentación al instante, dandonos el visto bueno a diferencia de la evalución 1.
+2. Primera evaluación formal:  
+   - Se presentó el avance del proyecto al docente, quien entregó retroalimentación inmediata. A diferencia de la evaluación anterior, esta vez se recibió el visto bueno.

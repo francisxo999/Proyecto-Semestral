@@ -74,3 +74,9 @@ Este proyecto se vincula con las asignaturas de Base de Datos, Ingeniería en So
 
 - **Semana 9:**  
   Recibimos retroalimentación del profesor sobre los avances, tanto en el repositorio como en el tablero de Jira y el código de Python conectado con la base de datos. Nos entregó recomendaciones y destacó los aspectos positivos del trabajo realizado hasta el momento.
+
+- **Semana 10:**  
+  Se reorganizaron las carpetas del repositorio para mantener un orden lógico y facilitar la navegación entre semanas. Además, se agregaron nuevas tareas en el tablero de Jira, asignando responsabilidades específicas a cada integrante del equipo.
+
+- **Semana 11:**  
+  Se actualizó la Carta Gantt incluyendo nuevos sprints a partir del sprint 3. Se añadieron nuevas tareas en Jira, asignándolas a los integrantes del equipo. En el archivo README se incorporaron los enlaces a Jira y Figma en la sección de metodología de desarrollo. También se realizó una investigación sobre APIs para evaluar su posible integración en el sistema.

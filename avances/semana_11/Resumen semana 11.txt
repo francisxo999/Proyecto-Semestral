@@ -1,13 +1,15 @@
 Resumen Semana 11
 
-En la onceava semana del proyecto, realizamos las siguientes actividades:
+Durante la semana 11 del proyecto, se desarrollaron las siguientes actividades:
 
-1. Actualizacion carta Gantt:
-  - Se edito y se actualizo la carta Gantt, se agregaron nuevos sprints partiendo desde el sprint n°3.
-2. Nuevas Tareas en Jira:
-   - Se agregaron nuevas actividades en el tablero Jira y se ha asignado las tareas a los integrantes del proyecto.
-3. Actualizacion Metodoligía de desarrollo:
-   - En el readme, en la parte de metodología de desarrollo se agrego el link del Jira y del Figma, con el fin de que se pueda ver 
-     las tareas pendientes o realizadas y el prototipo base que desarrollamos del proyecto.
-4. Busqueda API:
-   - Se realizo una investigacion acerca de las APIs para integrar una a nuestro sistema.
+1. Actualización de carta Gantt:  
+   - Se editó la carta Gantt incorporando nuevos sprints, comenzando desde el sprint número 3.
+
+2. Gestión de tareas en Jira:  
+   - Se añadieron nuevas actividades en el tablero de Jira y se distribuyeron entre los integrantes del equipo.
+
+3. Actualización del README:  
+   - En la sección de metodología de desarrollo del README, se añadieron los enlaces al tablero de Jira y al prototipo en Figma.
+
+4. Investigación de APIs:  
+   - Se realizó una búsqueda e investigación de APIs para evaluar su posible integración en el sistema.

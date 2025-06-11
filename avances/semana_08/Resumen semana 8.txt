@@ -1,0 +1,6 @@
+Resumen Semana 8
+
+Durante la semana 8 del proyecto, se realizaron las siguientes actividades:
+
+1. Creación de la base de datos:  
+   - Se diseñó y creó la base de datos del proyecto utilizando SQL Developer, incluyendo la generación del usuario y la estructura de tablas necesarias.
