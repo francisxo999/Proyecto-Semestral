@@ -44,7 +44,7 @@ Este proyecto se vincula con las asignaturas de Base de Datos, Ingeniería en So
 |--------------------|--------------------------------------------|
 | Francisco Vera     | Líder de equipo                            |
 | Javier Cataldo     | Encargado de Base de Datos y Codificación  |
-| Cristóbal González | Encargado de la Codificación               |
+| Cristóbal González | Encargado de mi mazo               |
 
 ## 8. Resumen Semanal de Avances
 
