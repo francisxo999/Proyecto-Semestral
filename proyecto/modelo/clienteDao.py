@@ -15,9 +15,9 @@ def obteneOCrearCliente(nombre, correo, direccion="SIN DIRECCIÓN", telefono="SI
             return resultado[0]
 
         conexion.cursor.execute("""
-            INSERT INTO CLIENTE (NOMBRE, CORREO_ELECTRONICO, DIRECCION, TELEFONO)
-            VALUES (?, ?, ?, ?)
-        """, (nombre, correo, direccion, telefono))
+            INSERT INTO CLIENTE (NOMBRE, CORREO_ELECTRONICO, TELEFONO)
+            VALUES (?, ?, ?)
+        """, (nombre, correo, telefono))
         
         id_nuevo = conexion.cursor.lastrowid
         conexion.cerrar()

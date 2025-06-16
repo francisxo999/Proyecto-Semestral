@@ -14,14 +14,15 @@ class Frame(tk.Frame):
         self.botones()
 
     def camposMascota(self):
+        # Solo campos existentes en la BD
         labels = ['Nombre del animal', 'Especie', 'Raza', 'N° Chip', 'Fecha de nacimiento',
-                  'Sexo', 'Peso', 'Edad', 'Color', 'Diagnóstico']
+                'Sexo', 'Peso']  # <- Eliminados: Diagnóstico, Edad, Color
         self.entriesMascota = {}
         tk.Label(self, text='🐾 Datos de la Mascota', font=('Arial', 16, 'bold'), bg='#BAC3FF')\
-          .grid(column=0, row=0, columnspan=2, pady=10)
+            .grid(column=0, row=0, columnspan=2, pady=10)
         for i, label in enumerate(labels):
             tk.Label(self, text=label + ':', font=('Arial', 13), bg='#BAC3FF')\
-              .grid(column=0, row=i+1, sticky='e', padx=10, pady=3)
+                .grid(column=0, row=i+1, sticky='e', padx=10, pady=3)
             sv = tk.StringVar()
             entry = tk.Entry(self, textvariable=sv, font=('Arial', 13), width=40)
             entry.grid(column=1, row=i+1, padx=10, pady=3)
@@ -31,10 +32,10 @@ class Frame(tk.Frame):
         labels = ['Nombre del dueño', 'Correo electrónico', 'Teléfono']
         self.entriesDueno = {}
         tk.Label(self, text='👤 Datos del Dueño', font=('Arial', 16, 'bold'), bg='#BAC3FF')\
-          .grid(column=2, row=0, columnspan=2, pady=10)
+            .grid(column=2, row=0, columnspan=2, pady=10)
         for i, label in enumerate(labels):
             tk.Label(self, text=label + ':', font=('Arial', 13), bg='#BAC3FF')\
-              .grid(column=2, row=i+1, sticky='e', padx=10, pady=3)
+                .grid(column=2, row=i+1, sticky='e', padx=10, pady=3)
             sv = tk.StringVar()
             entry = tk.Entry(self, textvariable=sv, font=('Arial', 13), width=40)
             entry.grid(column=3, row=i+1, padx=10, pady=3)
@@ -45,16 +46,16 @@ class Frame(tk.Frame):
         self.botonesFrame.grid(column=0, row=12, columnspan=4, pady=20)
 
         tk.Button(self.botonesFrame, text='Nuevo', command=self.limpiarCampos,
-                  width=15, font=('Arial', 12, 'bold'), fg='#fff', bg='#7289da', cursor='hand2')\
-          .pack(side='left', padx=10)
+                width=15, font=('Arial', 12, 'bold'), fg='#fff', bg='#7289da', cursor='hand2')\
+            .pack(side='left', padx=10)
 
         tk.Button(self.botonesFrame, text='Guardar', command=self.guardarMascota,
-                  width=15, font=('Arial', 12, 'bold'), fg='#fff', bg='#007d8f', cursor='hand2')\
-          .pack(side='left', padx=10)
+                width=15, font=('Arial', 12, 'bold'), fg='#fff', bg='#007d8f', cursor='hand2')\
+            .pack(side='left', padx=10)
 
         tk.Button(self.botonesFrame, text='Cancelar', command=self.limpiarCampos,
-                  width=15, font=('Arial', 12, 'bold'), fg='#fff', bg='#dc3545', cursor='hand2')\
-          .pack(side='left', padx=10)
+                width=15, font=('Arial', 12, 'bold'), fg='#fff', bg='#dc3545', cursor='hand2')\
+            .pack(side='left', padx=10)
 
     def limpiarCampos(self):
         for sv in self.entriesMascota.values():
@@ -72,8 +73,7 @@ class Frame(tk.Frame):
                 peso=float(self.entriesMascota['Peso'].get() or 0),
                 fecha_nacimiento=self.entriesMascota['Fecha de nacimiento'].get(),
                 sexo=self.entriesMascota['Sexo'].get(),
-                diagnostico=self.entriesMascota['Diagnóstico'].get(),
-                color=self.entriesMascota['Color'].get(),
+                # Eliminados: diagnostico, edad, color
                 cliente_nombre=self.entriesDueno['Nombre del dueño'].get(),
                 cliente_correo=self.entriesDueno['Correo electrónico'].get(),
                 cliente_telefono=self.entriesDueno['Teléfono'].get()
