@@ -4,7 +4,7 @@ from .clienteDao import obteneOCrearCliente
 
 class Mascota:
     def __init__(self, n_chip, nombre, especie, raza, peso, fecha_nacimiento, sexo,
-                 diagnostico, color, cliente_nombre, cliente_correo, cliente_direccion=None, cliente_telefono=None):
+                 cliente_nombre, cliente_correo, cliente_direccion=None, cliente_telefono=None):
         self.n_chip = n_chip
         self.nombre = nombre
         self.especie = especie
@@ -12,8 +12,6 @@ class Mascota:
         self.peso = peso
         self.fecha_nacimiento = fecha_nacimiento
         self.sexo = sexo
-        self.diagnostico = diagnostico
-        self.color = color
         self.cliente_nombre = cliente_nombre
         self.cliente_correo = cliente_correo
         self.cliente_direccion = cliente_direccion or ''
@@ -36,8 +34,8 @@ def guardarDatosMascota(mascota):
         conexion.cursor.execute("""
             INSERT INTO MASCOTA (
                 N_CHIP, NOMBRE_MASCOTA, ESPECIE, RAZA, PESO, FECHA_NACIMIENTO,
-                SEXO, DIAGNOSTICO, COLOR, ID_CLIENTE
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                SEXO, ID_CLIENTE
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
         """, (
             mascota.n_chip,
             mascota.nombre,
@@ -46,8 +44,6 @@ def guardarDatosMascota(mascota):
             mascota.peso,
             mascota.fecha_nacimiento,
             mascota.sexo,
-            mascota.diagnostico,
-            mascota.color,
             id_cliente
         ))
 
