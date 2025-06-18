@@ -5,7 +5,7 @@ class Frame(tk.Frame):
     def __init__(self, root):
         super().__init__(root, width=1280, height=720)
         self.root = root
-        self.root.title("VETTsafe")
+        self.root.title("VETTsafe - Registro de Mascota")
         self.root.resizable(False, False)
         self.pack()
         self.config(bg='#BAC3FF')
@@ -14,9 +14,8 @@ class Frame(tk.Frame):
         self.botones()
 
     def camposMascota(self):
-        # Solo campos existentes en la BD
         labels = ['Nombre del animal', 'Especie', 'Raza', 'N° Chip', 'Fecha de nacimiento',
-                'Sexo', 'Peso']  # <- Eliminados: Diagnóstico, Edad, Color
+                'Sexo', 'Peso']
         self.entriesMascota = {}
         tk.Label(self, text='🐾 Datos de la Mascota', font=('Arial', 16, 'bold'), bg='#BAC3FF')\
             .grid(column=0, row=0, columnspan=2, pady=10)
@@ -73,7 +72,6 @@ class Frame(tk.Frame):
                 peso=float(self.entriesMascota['Peso'].get() or 0),
                 fecha_nacimiento=self.entriesMascota['Fecha de nacimiento'].get(),
                 sexo=self.entriesMascota['Sexo'].get(),
-                # Eliminados: diagnostico, edad, color
                 cliente_nombre=self.entriesDueno['Nombre del dueño'].get(),
                 cliente_correo=self.entriesDueno['Correo electrónico'].get(),
                 cliente_telefono=self.entriesDueno['Teléfono'].get()
