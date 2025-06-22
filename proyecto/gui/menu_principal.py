@@ -1,8 +1,8 @@
 import tkinter as tk
-from tkinter import ttk
-from gui.gui import Frame
+from tkinter import messagebox
+from gui.registro import Frame
 from gui.listado_mascotas import ListadoMascotas
-
+from gui.listado_clientes import ListadoClientes  
 
 class MenuPrincipal(tk.Tk):
     def __init__(self):
@@ -11,7 +11,6 @@ class MenuPrincipal(tk.Tk):
         self.geometry("800x600")
         self.resizable(False, False)
         self.config(bg='#BAC3FF')
-        
         self.crear_widgets()
         
     def crear_widgets(self):
@@ -27,7 +26,7 @@ class MenuPrincipal(tk.Tk):
         opciones = [
             ("🐾 Registrar Mascota", self.abrir_registro_mascota),
             ("📋 Listar Mascotas", self.abrir_listado_mascotas),
-            ("👤 Gestión de Clientes", self.abrir_gestion_clientes),
+            ("👤 Gestión de Clientes", self.abrir_gestion_clientes),  # Modificado
             ("⚙️ Configuración", self.abrir_configuracion),
             ("🚪 Salir", self.quit)
         ]
@@ -39,24 +38,24 @@ class MenuPrincipal(tk.Tk):
             btn.pack(pady=10)
     
     def abrir_registro_mascota(self):
-        self.withdraw()  # Oculta la ventana principal
+        self.withdraw()
         ventana_registro = tk.Toplevel(self)
-        app = Frame(ventana_registro)
+        Frame(ventana_registro)
         ventana_registro.protocol("WM_DELETE_WINDOW", lambda: self.volver_al_menu(ventana_registro))
     
     def abrir_listado_mascotas(self):
-        self.withdraw()  # Oculta la ventana principal
+        self.withdraw()
         ventana_listado = tk.Toplevel(self)
-        app = ListadoMascotas(ventana_listado, lambda: self.volver_al_menu(ventana_listado))
+        ListadoMascotas(ventana_listado, lambda: self.volver_al_menu(ventana_listado))
     
     def abrir_gestion_clientes(self):
-        # Implementar gestión de clientes
-        pass
+        self.withdraw()
+        ventana_gestion = tk.Toplevel(self)
+        ListadoClientes(ventana_gestion, lambda: self.volver_al_menu(ventana_gestion))
     
     def abrir_configuracion(self):
-        # Implementar configuración
-        pass
+        messagebox.showinfo("Configuración", "Módulo en desarrollo")
     
     def volver_al_menu(self, ventana_secundaria):
         ventana_secundaria.destroy()
-        self.deiconify()  # Muestra nuevamente el menú principal
+        self.deiconify()
