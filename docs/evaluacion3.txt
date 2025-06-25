@@ -1,3 +1,0 @@
-De la base de datos se debe eliminar el color y edad,,
-la evaluacion es el viernes 20 de junio,,
-Front End + Back End - Base datos - API
