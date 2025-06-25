@@ -86,6 +86,7 @@ Este proyecto se vincula con las asignaturas de Base de Datos, Ingeniería en So
 
 ## 9. Cómo Ejecutar el Proyecto
 
-1. Clona este repositorio `git clone https://github.com/francisxo999/Proyecto-Semestral.git`
-2. Asegúrate de tener la versión más actual de Python y las dependencias instaladas.
-3. Ejecuta el archivo `main.py` para iniciar la aplicación.
+1. Clona este repositorio `git clone https://github.com/francisxo999/Proyecto-Semestral.git` en tu escritorio.
+2. Arrastra la carpeta hacia Visual Studio Code.
+3. Asegúrate de tener la versión más actual de Python y las dependencias instaladas.
+4. Ejecuta el archivo `main.py` para iniciar la aplicación.
