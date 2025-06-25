@@ -13,7 +13,7 @@
 - <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" width="15"/>  **Figma:** Plataforma empleada para diseñar las interfaces de usuario y mejorar la experiencia visual.
 - <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel" width="20"/> **Excel:** Usado para desarrollar y organizar la Carta Gantt del proyecto.  
 - <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Jira_Logo.svg" alt="Jira" width="38"/> **Jira:** Herramienta de gestión de proyectos utilizada para organizar las tareas del equipo.
-- <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/API_icon.svg" alt="API" width="22"/> **Nager.Date (API):** API utilizada para obtener información de feriados, mejorando la funcionalidad del sistema.
+- <img src="http://www.w3.org/2000/svg" alt="API" width="22"/> **Nager.Date (API):** API utilizada para obtener información de feriados, mejorando la funcionalidad del sistema.
 
 ## 3. Metodología de Desarrollo
 Se sigue la metodología Scrum, con sprints semanales para organizar el trabajo y asegurar avances constantes.
