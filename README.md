@@ -40,11 +40,12 @@ Este proyecto se vincula con las asignaturas de Base de Datos, Ingeniería en So
 
 ## 7. Equipo
 
-| Nombre             | Rol                                       |
-|--------------------|--------------------------------------------|
-| Francisco Vera     | Líder de equipo                            |
-| Javier Cataldo     | Encargado de Base de Datos y Codificación  |
-| Cristóbal González | Encargado de la Codificación               |
+| Nombre             | Rol                                                                  |
+| ------------------ | -------------------------------------------------------------------- |
+| Francisco Vera     | Líder de equipo, encargado de codificación y base de datos           |
+| Javier Cataldo     | Encargado de base de datos y planificación bajo la metodología Scrum |
+| Cristóbal González | Encargado de mi mazo                                                 |
+
 
 ## 8. Resumen Semanal de Avances
 

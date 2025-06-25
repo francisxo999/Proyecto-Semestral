@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+VENV/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# SQLite database (opcional: si no quieres subirla)
+*.db
+*.sqlite3
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# MyPy / Pyright / Pyre
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Unit test cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# IDE-specific
+.idea/
