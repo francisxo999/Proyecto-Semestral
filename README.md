@@ -2,20 +2,21 @@
 
 ## 1. Descripción del Proyecto
 - **Descripción general:**  
-  El objetivo del proyecto es desarrollar un sistema para gestionar la información de mascotas y sus consultas médicas de manera eficiente, utilizando la metodología CRUD. Este sistema permitirá registrar datos de las mascotas y sus dueños, mejorando la administración en clínicas veterinarias y centros de salud animal.
+  El objetivo del proyecto es desarrollar un sistema para gestionar la información de mascotas y sus consultas médicas de manera eficiente, utilizando la metodología CRUD. Este sistema permitirá registrar datos de las mascotas y sus dueños, optimizando la gestión en clínicas veterinarias y centros de salud animal.
 
 > Este proyecto está disponible bajo la [Licencia MIT](https://github.com/francisxo999/Proyecto-Semestral/blob/main/LICENSE).
 
 ## 2. Tecnologías Utilizadas
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="22"/> **Python:** Lenguaje utilizado para la programación de la lógica del sistema y las operaciones CRUD.
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="22"/>  **Python:** Lenguaje utilizado para la programación de la lógica del sistema y las operaciones CRUD.
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="Visual Studio Code" width="20"/> **Visual Studio Code:** Editor de código fuente empleado para programar y organizar los archivos del sistema.
-- <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg" alt="SQLite" width="38"/> **SQLite:** Motor de base de datos utilizado para almacenar los registros de manera local y eficiente.
-- <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" width="15"/> **Figma:** Plataforma empleada para diseñar las interfaces de usuario y mejorar la experiencia visual.
+- <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg" alt="SQLite" width="22"/> **SQLite:** Motor de base de datos utilizado para almacenar los registros de manera local y eficiente.
+- <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" width="15"/>  **Figma:** Plataforma empleada para diseñar las interfaces de usuario y mejorar la experiencia visual.
 - <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel" width="20"/> **Excel:** Usado para desarrollar y organizar la Carta Gantt del proyecto.  
 - <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Jira_Logo.svg" alt="Jira" width="38"/> **Jira:** Herramienta de gestión de proyectos utilizada para organizar las tareas del equipo.
 
 ## 3. Metodología de Desarrollo
-Se sigue la metodología Scrum, con sprints semanales para organizar el trabajo y asegurar avances constantes.
+Se sigue la metodología Scrum, con sprints semanales para organizar el trabajo y asegurar avances constantes.  
+Además, se utilizan herramientas como Jira y la Carta Gantt para planificar y dar seguimiento a los sprints.
 
 ## 4. Herramientas de Gestión
 
@@ -31,8 +32,8 @@ Se sigue la metodología Scrum, con sprints semanales para organizar el trabajo 
   [Prototipo de diseño](https://www.figma.com/proto/dW6zv0OQ8aZEJCwbGtbomC/Vettsafe?node-id=15-115&starting-point-node-id=15%3A115)  
 
 **Diferencias entre prototipo y proyecto final:**
-- Implementación de la base de datos
-- Funcionalidades CRUD operativas (añadir y ver)
+- Implementación de la base de datos (completa)
+- Funcionalidades CRUD operativas (añadir, listar y editar)
 - Persistencia de datos (las consultas quedan guardadas en la base de datos)
 
 ## 6. Vinculación con Otras Asignaturas  
@@ -45,7 +46,6 @@ Este proyecto se vincula con las asignaturas de Base de Datos, Ingeniería en So
 | Francisco Vera     | Líder de equipo, encargado de codificación y base de datos           |
 | Javier Cataldo     | Encargado de base de datos y planificación bajo la metodología Scrum |
 | Cristóbal González | Encargado de tareas del Jira y Carta Gantt                           |
-
 
 ## 8. Resumen Semanal de Avances
 
@@ -81,3 +81,11 @@ Este proyecto se vincula con las asignaturas de Base de Datos, Ingeniería en So
 
 - **Semana 11:**  
   Se actualizó la Carta Gantt incluyendo nuevos sprints a partir del sprint 3. Se añadieron nuevas tareas en Jira, asignándolas a los integrantes del equipo. En el archivo README se incorporaron los enlaces a Jira y Figma en la sección de metodología de desarrollo. También se realizó una investigación sobre APIs para evaluar su posible integración en el sistema.
+
+*Actualmente nos encontramos en la fase final de desarrollo, enfocados en pruebas y mejoras antes de la entrega final.*
+
+## 9. Cómo Ejecutar el Proyecto
+
+1. Clona este repositorio `git clone https://github.com/francisxo999/Proyecto-Semestral.git`
+2. Asegúrate de tener la versión más actual de Python y las dependencias instaladas.
+3. Ejecuta el archivo `main.py` para iniciar la aplicación.
