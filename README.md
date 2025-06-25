@@ -9,7 +9,7 @@
 ## 2. Tecnologías Utilizadas
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="22"/>  **Python:** Lenguaje utilizado para la programación de la lógica del sistema y las operaciones CRUD.
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="Visual Studio Code" width="20"/> **Visual Studio Code:** Editor de código fuente empleado para programar y organizar los archivos del sistema.
-- <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg" alt="SQLite" width="22"/> **SQLite:** Motor de base de datos utilizado para almacenar los registros de manera local y eficiente.
+- <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg" alt="SQLite" width="38"/> **SQLite:** Motor de base de datos utilizado para almacenar los registros de manera local y eficiente.
 - <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" width="15"/>  **Figma:** Plataforma empleada para diseñar las interfaces de usuario y mejorar la experiencia visual.
 - <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel" width="20"/> **Excel:** Usado para desarrollar y organizar la Carta Gantt del proyecto.  
 - <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Jira_Logo.svg" alt="Jira" width="38"/> **Jira:** Herramienta de gestión de proyectos utilizada para organizar las tareas del equipo.
@@ -86,6 +86,7 @@ Este proyecto se vincula con las asignaturas de Base de Datos, Ingeniería en So
 
 ## 9. Cómo Ejecutar el Proyecto
 
-1. Clona este repositorio `git clone https://github.com/francisxo999/Proyecto-Semestral.git`
-2. Asegúrate de tener la versión más actual de Python y las dependencias instaladas.
-3. Ejecuta el archivo `main.py` para iniciar la aplicación.
+1. Clona este repositorio `git clone https://github.com/francisxo999/Proyecto-Semestral.git` en tu escritorio.
+2. Arrastra la carpeta hacia Visual Studio Code.
+3. Asegúrate de tener la versión más actual de Python y las dependencias instaladas.
+4. Ejecuta el archivo `main.py` para iniciar la aplicación.
