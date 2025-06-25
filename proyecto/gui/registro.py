@@ -1,10 +1,13 @@
 import tkinter as tk
+from tkinter import messagebox, simpledialog
 from modelo.mascotaDao import Mascota, guardarDatosMascota
+from modelo.conexion import ConexionBD
 
 class Frame(tk.Frame):
-    def __init__(self, root):
+    def __init__(self, root, volver_callback=None):
         super().__init__(root, width=1280, height=720)
         self.root = root
+        self.volver_callback = volver_callback
         self.root.title("VETTsafe - Registro de Mascota")
         self.root.resizable(False, False)
         self.pack()
@@ -41,19 +44,27 @@ class Frame(tk.Frame):
             self.entriesDueno[label] = sv
 
     def botones(self):
-        self.botonesFrame = tk.Frame(self, bg='#BAC3FF')
-        self.botonesFrame.grid(column=0, row=12, columnspan=4, pady=20)
-
-        tk.Button(self.botonesFrame, text='Nuevo', command=self.limpiarCampos,
-                width=15, font=('Arial', 12, 'bold'), fg='#fff', bg='#7289da', cursor='hand2')\
-            .pack(side='left', padx=10)
-
-        tk.Button(self.botonesFrame, text='Guardar', command=self.guardarMascota,
-                width=15, font=('Arial', 12, 'bold'), fg='#fff', bg='#007d8f', cursor='hand2')\
-            .pack(side='left', padx=10)
-
-        tk.Button(self.botonesFrame, text='Cancelar', command=self.limpiarCampos,
+        # Frame para botones superiores (Limpiar)
+        self.botonesSuperiores = tk.Frame(self, bg='#BAC3FF')
+        self.botonesSuperiores.grid(column=0, row=8, columnspan=4, pady=(10, 0))
+        
+        # Botón Limpiar (ahora más arriba)
+        tk.Button(self.botonesSuperiores, text='Limpiar', command=self.limpiarCampos,
                 width=15, font=('Arial', 12, 'bold'), fg='#fff', bg='#dc3545', cursor='hand2')\
+            .pack(side='left', padx=10)
+
+        # Frame para botones inferiores (Guardar, Volver)
+        self.botonesInferiores = tk.Frame(self, bg='#BAC3FF')
+        self.botonesInferiores.grid(column=0, row=12, columnspan=4, pady=20)
+
+        # Botón Guardar
+        tk.Button(self.botonesInferiores, text='Guardar', command=self.guardarMascota,
+                width=15, font=('Arial', 12, 'bold'), fg='#fff', bg='#28a745', cursor='hand2')\
+            .pack(side='left', padx=10)
+
+        # Botón Volver al menú
+        tk.Button(self.botonesInferiores, text='Volver al menú', command=self.volver,
+                width=15, font=('Arial', 12, 'bold'), fg='#fff', bg='#17a2b8', cursor='hand2')\
             .pack(side='left', padx=10)
 
     def limpiarCampos(self):
@@ -62,10 +73,32 @@ class Frame(tk.Frame):
         for sv in self.entriesDueno.values():
             sv.set('')
 
+    def volver(self):
+        self.root.destroy()
+        if self.volver_callback:
+            self.volver_callback()
+
+    def verificar_existencia_mascota(self, n_chip):
+        try:
+            conexion = ConexionBD()
+            conexion.conectar()
+            conexion.cursor.execute("SELECT 1 FROM MASCOTA WHERE N_CHIP = ?", (n_chip,))
+            existe = conexion.cursor.fetchone() is not None
+            conexion.cerrar()
+            return existe
+        except Exception as e:
+            messagebox.showerror("Error", f"No se pudo verificar la mascota:\n{e}")
+            return False
+
     def guardarMascota(self):
         try:
+            n_chip = self.entriesMascota['N° Chip'].get()
+            if not n_chip:
+                messagebox.showwarning("Advertencia", "El N° Chip es obligatorio")
+                return
+                
             mascota = Mascota(
-                n_chip=self.entriesMascota['N° Chip'].get(),
+                n_chip=n_chip,
                 nombre=self.entriesMascota['Nombre del animal'].get(),
                 especie=self.entriesMascota['Especie'].get(),
                 raza=self.entriesMascota['Raza'].get(),
@@ -76,8 +109,18 @@ class Frame(tk.Frame):
                 cliente_correo=self.entriesDueno['Correo electrónico'].get(),
                 cliente_telefono=self.entriesDueno['Teléfono'].get()
             )
-            guardarDatosMascota(mascota)
+            
+            if self.verificar_existencia_mascota(n_chip):
+                if messagebox.askyesno("Confirmar", "Mascota ya existe. ¿Desea actualizar los datos?"):
+                    guardarDatosMascota(mascota, actualizar=True)
+                    messagebox.showinfo("Éxito", "Datos actualizados correctamente")
+            else:
+                guardarDatosMascota(mascota)
+                messagebox.showinfo("Éxito", "Mascota registrada correctamente")
+                
             self.limpiarCampos()
+            
+        except ValueError:
+            messagebox.showerror("Error", "El campo Peso debe ser un número válido")
         except Exception as e:
-            from tkinter import messagebox
             messagebox.showerror("Error", f"No se pudo guardar la mascota:\n{e}")
