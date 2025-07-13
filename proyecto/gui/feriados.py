@@ -13,6 +13,8 @@ class Feriados(tk.Frame):
         self.master.title("VETTsafe - Consulta de Feriados")
         self.master.resizable(False, False)
         
+        self.master.protocol("WM_DELETE_WINDOW", self.volver)
+
         # Configuración del Frame
         self.config(bg='#BAC3FF', width=800, height=600)
         self.pack(fill='both', expand=True)
@@ -107,5 +109,6 @@ class Feriados(tk.Frame):
                 ))
 
     def volver(self):
-        self.master.destroy()  # Usamos self.master para referirnos a la ventana
-        self.volver_callback()
+        self.master.destroy() 
+        if self.volver_callback:
+            self.volver_callback() 

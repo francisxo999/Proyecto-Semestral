@@ -4,6 +4,7 @@ from gui.registro import Frame
 from gui.listado_mascotas import ListadoMascotas
 from gui.listado_clientes import ListadoClientes
 from gui.consulta_detallada import ConsultaDetalladaFrame
+from gui.informacion import InformacionSistema
 from gui.feriados import Feriados
 
 class MenuPrincipal(tk.Tk):
@@ -49,7 +50,7 @@ class MenuPrincipal(tk.Tk):
         # Botones secundarios
         opciones_secundarias = [
             ("📅 Feriados", self.abrir_feriados),
-            ("⚙️ Configuración", self.abrir_configuracion),
+            ("⚙️ Información", self.abrir_configuracion),
             ("🚪 Salir", self.quit)
         ]
         
@@ -65,7 +66,6 @@ class MenuPrincipal(tk.Tk):
         Frame(ventana_registro, volver_callback=lambda: self.volver_al_menu(ventana_registro))
         ventana_registro.protocol("WM_DELETE_WINDOW", lambda: self.volver_al_menu(ventana_registro))
 
-    
     def abrir_listado_mascotas(self):
         self.withdraw()
         ventana_listado = tk.Toplevel(self)
@@ -87,8 +87,10 @@ class MenuPrincipal(tk.Tk):
         Feriados(ventana_feriados, lambda: self.volver_al_menu(ventana_feriados))
     
     def abrir_configuracion(self):
-        messagebox.showinfo("Configuración", "Módulo en desarrollo")
-    
+        self.withdraw()
+        ventana_config = tk.Toplevel(self)
+        InformacionSistema(ventana_config, lambda: self.volver_al_menu(ventana_config))
+        
     def volver_al_menu(self, ventana_secundaria):
         ventana_secundaria.destroy()
         self.deiconify()

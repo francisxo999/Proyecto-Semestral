@@ -22,6 +22,9 @@ class ConsultaDetalladaFrame(tk.Frame):
             self.mascota_cb.set(self.obtener_texto_mascota(n_chip))
             self.cargar_consultas()
 
+        self.root.protocol("WM_DELETE_WINDOW", self.volver)
+
+
     def crear_widgets(self):
         # Frame principal
         main_frame = tk.Frame(self, bg='#BAC3FF')
@@ -214,5 +217,6 @@ class ConsultaDetalladaFrame(tk.Frame):
         self.detalles_txt.delete('1.0', tk.END)
 
     def volver(self):
-        self.root.destroy()
-        self.volver_callback()
+        self.root.destroy() 
+        if self.volver_callback:
+            self.volver_callback()  
