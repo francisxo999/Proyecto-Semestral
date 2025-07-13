@@ -43,9 +43,9 @@ Este proyecto se vincula con las asignaturas de Base de Datos, Ingeniería en So
 
 | Nombre             | Rol                                                                  |
 | ------------------ | -------------------------------------------------------------------- |
-| Francisco Vera     | Líder de equipo, encargado de codificación y base de datos           |
-| Javier Cataldo     | Encargado de base de datos y planificación bajo la metodología Scrum |
-| Cristóbal González | Encargado de tareas del Jira y Carta Gantt                           |
+| Francisco Vera     | Líder de equipo, encargado de codificación y base de datos.          |
+| Javier Cataldo     | Encargado de base de datos y planificación bajo la metodología Scrum. |
+| Cristóbal González | Encargado de tareas del Jira y Carta Gantt.                           |
 
 ## 8. Resumen Semanal de Avances
 
