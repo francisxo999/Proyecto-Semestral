@@ -1,4 +1,3 @@
-# menú principal
 import tkinter as tk
 from tkinter import messagebox
 from gui.registro import Frame
@@ -18,7 +17,6 @@ class MenuPrincipal(tk.Tk):
         self.crear_widgets()
         
     def crear_widgets(self):
-        """Configura la interfaz del menú principal"""
         # Marco principal
         main_frame = tk.Frame(self, bg='#BAC3FF')
         main_frame.pack(expand=True, fill='both', padx=50, pady=50)
@@ -27,11 +25,11 @@ class MenuPrincipal(tk.Tk):
         tk.Label(main_frame, text="VETTsafe", font=('Arial', 24, 'bold'), 
                 bg='#BAC3FF', fg='#2C3E50').pack(pady=(0, 30))
         
-        # --- Botones principales ---
+        # Marco para botones principales
         main_buttons_frame = tk.Frame(main_frame, bg='#BAC3FF')
         main_buttons_frame.pack(pady=(0, 20))
         
-        # Configuración de botones principales (#7289DA - Azul principal)
+        # Botones principales del menú
         opciones_principales = [
             ("🐾 Registrar Mascota", self.abrir_registro_mascota),
             ("📋 Listar Mascotas", self.abrir_listado_mascotas),
@@ -42,15 +40,14 @@ class MenuPrincipal(tk.Tk):
         for texto, comando in opciones_principales:
             btn = tk.Button(main_buttons_frame, text=texto, command=comando,
                           font=('Arial', 14), width=25, height=2,
-                          bg='#7289DA', fg='white', cursor='hand2',
-                          activebackground='#6278CA')
+                          bg='#7289da', fg='white', cursor='hand2')
             btn.pack(pady=10)
         
-        # --- Botones secundarios ---
+        # Marco para botones secundarios
         secondary_buttons_frame = tk.Frame(main_frame, bg='#BAC3FF')
         secondary_buttons_frame.pack()
         
-        # Configuración de botones secundarios (#6c757d - Gris)
+        # Botones secundarios
         opciones_secundarias = [
             ("📅 Feriados", self.abrir_feriados),
             ("⚙️ Información", self.abrir_configuracion),
@@ -60,8 +57,7 @@ class MenuPrincipal(tk.Tk):
         for texto, comando in opciones_secundarias:
             btn = tk.Button(secondary_buttons_frame, text=texto, command=comando,
                           font=('Arial', 12), width=20, height=1,
-                          bg='#6c757d', fg='white', cursor='hand2',
-                          activebackground='#5c656d')
+                          bg='#6c757d', fg='white', cursor='hand2')
             btn.pack(side='left', padx=5, pady=5)
     
     def abrir_registro_mascota(self):
