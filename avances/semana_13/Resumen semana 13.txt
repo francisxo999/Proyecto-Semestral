@@ -1,1 +1,4 @@
-asdkjjsfdkj
+Resumen Semana 13  
+
+1. Avance en la codificación:  
+- Se completaron los últimos ajustes del programa, optimizando funciones clave y corrigiendo errores para preparar la versión final.  
