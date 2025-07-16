@@ -1,4 +1,3 @@
-# modelo/consultadetalladaDao.py
 from .conexion import ConexionBD
 from tkinter import messagebox
 from datetime import datetime
@@ -13,6 +12,56 @@ class ConsultaDetallada:
         self.detalles_extras = detalles_extras
         self.fecha = fecha or datetime.now().strftime('%Y-%m-%d')
         self.n_chip = n_chip
+
+def guardar_consulta_detallada(consulta):
+    """Guarda o actualiza una consulta en la base de datos"""
+    try:
+        conexion = ConexionBD()
+        conexion.conectar()
+        
+        if consulta.n_consulta:  # Actualización
+            conexion.cursor.execute("""
+                UPDATE CONSULTA_DETALLADA SET 
+                MOTIVO_CONSULTA = ?, EXAMEN_AUXILIAR = ?, TRATAMIENTO = ?,
+                DETALLES_EXTRAS = ?, FECHA = ?, N_CHIP = ?
+                WHERE N_CONSULTA = ?
+            """, (
+                consulta.motivo_consulta, consulta.examen_auxiliar, consulta.tratamiento,
+                consulta.detalles_extras, consulta.fecha, consulta.n_chip,
+                consulta.n_consulta
+            ))
+        else:  # Inserción
+            conexion.cursor.execute("""
+                INSERT INTO CONSULTA_DETALLADA (
+                    MOTIVO_CONSULTA, EXAMEN_AUXILIAR, TRATAMIENTO,
+                    DETALLES_EXTRAS, FECHA, N_CHIP
+                ) VALUES (?, ?, ?, ?, ?, ?)
+            """, (
+                consulta.motivo_consulta, consulta.examen_auxiliar, consulta.tratamiento,
+                consulta.detalles_extras, consulta.fecha, consulta.n_chip
+            ))
+        
+        conexion.conexion.commit()
+        return True
+    except Exception as e:
+        messagebox.showerror("Error", f"No se pudo guardar la consulta:\n{e}")
+        return False
+    finally:
+        conexion.cerrar()
+
+def eliminar_consulta_detallada(n_consulta):
+    """Elimina una consulta de la base de datos"""
+    try:
+        conexion = ConexionBD()
+        conexion.conectar()
+        conexion.cursor.execute("DELETE FROM CONSULTA_DETALLADA WHERE N_CONSULTA = ?", (n_consulta,))
+        conexion.conexion.commit()
+        return True
+    except Exception as e:
+        messagebox.showerror("Error", f"No se pudo eliminar la consulta:\n{e}")
+        return False
+    finally:
+        conexion.cerrar()
 
 def guardar_consulta_detallada(consulta):
     try:

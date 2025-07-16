@@ -1,3 +1,4 @@
+# feriados
 import tkinter as tk
 from tkinter import ttk, messagebox
 from modelo.feriados_api import FeriadosAPI
@@ -6,7 +7,7 @@ from datetime import datetime
 class Feriados(tk.Frame):
     def __init__(self, root, volver_callback):
         super().__init__(root)
-        self.master = root  # Guardamos la referencia a la ventana principal
+        self.master = root
         self.volver_callback = volver_callback
         
         # Configuración de la ventana
@@ -22,11 +23,12 @@ class Feriados(tk.Frame):
         self.crear_widgets()
 
     def crear_widgets(self):
+        """Configura todos los elementos de la interfaz"""
         # Frame principal
         main_frame = tk.Frame(self, bg='#BAC3FF')
         main_frame.pack(fill='both', expand=True, padx=20, pady=20)
 
-        # Título (actualizado para ser consistente)
+        # Título
         tk.Label(main_frame, text='📅 Consulta de Feriados', 
                 font=('Arial', 16, 'bold'), bg='#BAC3FF')\
             .pack(pady=(0, 20))
@@ -35,10 +37,10 @@ class Feriados(tk.Frame):
         controles_frame = tk.Frame(main_frame, bg='#BAC3FF')
         controles_frame.pack(fill='x', pady=10)
 
-        # Botón Volver
+        # --- Botón Volver (#00838F - Azul petróleo) ---
         tk.Button(controles_frame, text='Volver', command=self.volver,
                 width=15, font=('Arial', 12, 'bold'), 
-                fg='#fff', bg='#6c757d', cursor='hand2')\
+                bg='#00838F', fg='#FFFFFF', activebackground='#00737D')\
             .pack(side='left', padx=5)
 
         # País
@@ -52,15 +54,15 @@ class Feriados(tk.Frame):
         # Año
         tk.Label(controles_frame, text='Año:', font=('Arial', 12), bg='#BAC3FF')\
             .pack(side='left', padx=5)
-        self.anio_var = tk.StringVar(value=str(datetime.now().year))  # Año actual por defecto
+        self.anio_var = tk.StringVar(value=str(datetime.now().year))
         tk.Entry(controles_frame, textvariable=self.anio_var, 
                 font=('Arial', 12), width=8)\
             .pack(side='left', padx=5)
 
-        # Botón Consultar
+        # --- Botón Consultar (#4FC3F7 - Azul celeste medio) ---
         tk.Button(controles_frame, text='Consultar', command=self.consultar_feriados,
                 width=15, font=('Arial', 12), 
-                fg='#fff', bg='#17a2b8', cursor='hand2')\
+                bg='#4FC3F7', fg='#2E2E2E', activebackground='#3FB2E7')\
             .pack(side='left', padx=10)
 
         # Treeview para mostrar feriados
@@ -84,6 +86,7 @@ class Feriados(tk.Frame):
         scrollbar = ttk.Scrollbar(main_frame, orient="vertical", command=self.tree.yview)
         scrollbar.pack(side='right', fill='y')
         self.tree.configure(yscrollcommand=scrollbar.set)
+
 
     def consultar_feriados(self):
         pais = self.pais_var.get()
