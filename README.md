@@ -124,7 +124,7 @@ Se utilizó **Scrum** como marco ágil, con sprints semanales, planificación po
   Nos enfocamos en la etapa final de desarrollo del programa, completando los últimos ajustes de código, optimizando funciones clave y corrigiendo errores para asegurar una versión estable y funcional.
 
 - **Semana 14:**  
-  Se culminó exitosamente el proyecto con el programa totalmente finalizado y validado, incluyendo todas las funcionalidades planificadas. Además, se generó el instalador ejecutable (.exe) utilizando [Inno Setup](https://jrsoftware.org/isinfo.php7), herramienta que permitió empaquetar la aplicación para su distribución oficial.
+  Se culminó exitosamente el proyecto con el programa totalmente finalizado y validado, incluyendo todas las funcionalidades planificadas. Además, se generó el instalador ejecutable (.exe) utilizando [Inno Setup](https://jrsoftware.org/isinfo.php), herramienta que permitió empaquetar la aplicación para su distribución oficial.
 
 ---
 
