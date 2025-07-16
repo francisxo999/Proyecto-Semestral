@@ -1,4 +1,12 @@
-Resumen semana 12,,
+Resumen Semana 12
 
-Examen 3,,
+Durante la semana 12 del proyecto, se desarrollaron las siguientes actividades:
 
+1. Investigación de APIs:  
+   - Se integró la API de Nager Date para cumplir los requisitos de la evaluación, dando como resultado, un apartado de "consulta de feriados" en el menú principal.
+
+2. Base de datos (integración):
+  - Se logró conectar completamente la base de datos: CLIENTE, MASCOTAS y CONSULTA_DETALLADA, obteniendo como resultado que los datos se guarden de manera correcta.
+
+3. Codificación:
+  - Se siguió condificando para cada vez estar más cerca de lo que tenemos planeado desde un comienzo.
