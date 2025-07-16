@@ -1,13 +1,23 @@
 # 🐾 Base de Datos - Proyecto VETTsafe
 
-Este directorio contiene la base de datos del proyecto **VETTsafe**, diseñada a partir del modelo lógico y relacional construido durante la **Semana 7** del desarrollo.
+Este archivo contiene la definición de la base de datos del proyecto **VETTsafe**, diseñada a partir del modelo lógico y relacional desarrollado durante la **Semana 7** del proyecto.
 
-📐 La base fue elaborada utilizando **Oracle SQL Data Modeler**, siguiendo las buenas prácticas de modelado y normalización. El diseño incluye:
+📄 El archivo `creacion_tablas.txt` incluye las sentencias SQL necesarias para crear las tablas principales del sistema, definidas con base en el modelo elaborado con **Oracle SQL Data Modeler**.
 
-- Modelo lógico
-- Modelo relacional
-- Definición de entidades, relaciones y restricciones de integridad
+### Contenido del archivo
 
-Esta base de datos constituye el núcleo estructural del sistema VETTsafe, sirviendo como soporte para las funcionalidades clave del proyecto, como la gestión de mascotas, clientes, profesionales y consultas veterinarias.
+- Sentencias `CREATE TABLE` para cada entidad del sistema
+- Claves primarias y foráneas definidas según el modelo relacional
+- Tipos de datos y restricciones básicas
+- Orden lógico de creación para evitar conflictos de dependencias
 
-> ✅ Asegúrate de revisar el archivo de creación del esquema SQL y los diagramas incluidos en esta carpeta para una comprensión completa del modelo de datos.
+### Recomendaciones
+
+- Ejecutar el script en un entorno compatible con Oracle SQL (como **Oracle SQL Developer**).
+- Verificar que el orden de ejecución respete las relaciones entre tablas (primero tablas sin claves foráneas).
+- Se recomienda revisar o complementar este script con inserts de prueba para poblar la base de datos.
+
+---
+
+> ℹ️ Este script es la base estructural del sistema VETTsafe y podrá ser extendido o modificado conforme evolucionen los requerimientos del sistema.
+
