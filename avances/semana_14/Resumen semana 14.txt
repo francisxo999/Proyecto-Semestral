@@ -1,1 +1,7 @@
-ola
+Resumen Semana 14  
+
+1. Programa finalizado:  
+  - Se completó y validó todas las funcionalidades del sistema, cerrando el desarrollo. 
+
+2. Despliegue en .exe
+  - Se generó el instalador ejecutable usando Inno Setup, listo para distribución.  
