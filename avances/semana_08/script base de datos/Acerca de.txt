@@ -1,2 +1,0 @@
-Acá se encuentra la base de datos del proyecto Vettsafe, basandose en el data modeler que se realizo la semana 7,
-con el modelo racional y el modelo logico, teniendo asi la base del proyecto.
