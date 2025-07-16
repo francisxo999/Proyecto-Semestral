@@ -1,5 +1,7 @@
 Resumen Semana 14  
 
+Durante la semana 14 del proyecto, se desarrollaron las siguientes actividades:
+
 1. Programa finalizado:  
   - Se completó y validó todas las funcionalidades del sistema, cerrando el desarrollo. 
 
