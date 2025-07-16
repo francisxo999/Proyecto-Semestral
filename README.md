@@ -16,33 +16,7 @@
 - <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" width="15"/>  **Figma:** Plataforma empleada para diseñar las interfaces de usuario y mejorar la experiencia visual.
 - <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel" width="20"/> **Excel:** Usado para desarrollar y organizar la Carta Gantt del proyecto.  
 - <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Jira_Logo.svg" alt="Jira" width="38"/> **Jira:** Herramienta de gestión de proyectos utilizada para organizar las tareas del equipo.
-
-
----
-
-## 🚀 Cómo Ejecutar el Proyecto
-
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/francisxo999/Proyecto-Semestral.git
-   ```
-2. Abre la carpeta en Visual Studio Code.
-3. Crea y activa un entorno virtual:
-   ```bash
-   python -m venv venv
-   .\venv\Scripts\activate  # Windows
-   ```
-4. Instala las dependencias:
-   ```bash
-   pip install -r requirements.txt
-   ```
-5. Ejecuta la aplicación:
-   ```bash
-   python main.py
-   ```
-
-> Asegúrate de tener Python 3.11 o superior instalado.
-
+  
 ---
 
 ## 📦 Requisitos del Proyecto (`requirements.txt`)
@@ -145,8 +119,6 @@ Se utilizó **Scrum** como marco ágil, con sprints semanales, planificación po
 
 - **Semana 12:**  
   Se realizaron mejoras significativas en la base de datos, alcanzando su integración completa con el sistema. Se ajustaron elementos de la interfaz para hacerla más intuitiva y se integró la API pública [Nager.Date](https://date.nager.at/) para consultar feriados, ampliando la funcionalidad del sistema.
-
-*Actualmente nos encontramos en la fase final de desarrollo, enfocados en pruebas, documentación y ajustes previos a la entrega definitiva.*
 
 ---
 
