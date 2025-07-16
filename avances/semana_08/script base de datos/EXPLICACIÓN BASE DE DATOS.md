@@ -2,7 +2,7 @@
 
 Este archivo contiene la definición de la base de datos del proyecto **VETTsafe**, diseñada a partir del modelo lógico y relacional desarrollado durante la **Semana 7** del proyecto.
 
-📄 El archivo `creacion_tablas.txt` incluye las sentencias SQL necesarias para crear las tablas principales del sistema, definidas con base en el modelo elaborado con **Oracle SQL Data Modeler**.
+📄 El archivo `SQL.txt` incluye las sentencias SQL necesarias para crear las tablas principales del sistema, definidas con base en el modelo elaborado con **Oracle SQL Data Modeler**.
 
 ### Contenido del archivo
 
@@ -13,7 +13,7 @@ Este archivo contiene la definición de la base de datos del proyecto **VETTsafe
 
 ### Recomendaciones
 
-- Ejecutar el script en un entorno compatible con Oracle SQL (como **Oracle SQL Developer**).
+- Ejecutar el script en un entorno compatible con Oracle SQL (recomendado 100% **DB Browser for SQLite**).
 - Verificar que el orden de ejecución respete las relaciones entre tablas (primero tablas sin claves foráneas).
 - Se recomienda revisar o complementar este script con inserts de prueba para poblar la base de datos.
 
