@@ -1,3 +1,4 @@
+# información
 import tkinter as tk
 from tkinter import ttk
 
@@ -15,16 +16,9 @@ class InformacionSistema(tk.Toplevel):
         if self.parent:
             self.parent.withdraw()
         
-        # Configuración de la ventana
         self._setup_ui()
-        
-        # Centrar ventana
         self.center_window()
-        
-        # Manejar cierre de ventana
         self.protocol("WM_DELETE_WINDOW", self.cerrar_ventana)
-        
-        # Hacer la ventana modal
         self.grab_set()
         self.focus_force()
     
@@ -39,14 +33,7 @@ class InformacionSistema(tk.Toplevel):
                 font=('Arial', 18, 'bold'), bg='#BAC3FF', fg='#2c3e50').pack(pady=(0, 20))
         
         # Área de texto con scroll
-        self._setup_text_area(main_frame)
-        
-        # Botón Volver
-        self._setup_boton_volver(main_frame)
-    
-    def _setup_text_area(self, parent_frame):
-        """Configura el área de texto con scroll"""
-        text_container = tk.Frame(parent_frame, bg='#BAC3FF', bd=2, relief='groove')
+        text_container = tk.Frame(main_frame, bg='#BAC3FF', bd=2, relief='groove')
         text_container.pack(fill='both', expand=True)
         
         scrollbar = tk.Scrollbar(text_container)
@@ -59,13 +46,7 @@ class InformacionSistema(tk.Toplevel):
         scrollbar.config(command=self.text_area.yview)
         
         # Insertar contenido
-        contenido = self._get_system_info()
-        self.text_area.insert('1.0', contenido.strip())
-        self.text_area.config(state='disabled')
-    
-    def _get_system_info(self):
-        """Retorna el texto con la información del sistema"""
-        return """
+        contenido = """
         VETTsafe - Sistema de Gestión Veterinaria
         
         Versión: 1.0
@@ -95,13 +76,15 @@ class InformacionSistema(tk.Toplevel):
         Para más información, visita nuestro repositorio en GitHub.
         """
     
-    def _setup_boton_volver(self, parent_frame):
-        """Configura el botón de volver"""
-        btn_volver = tk.Button(parent_frame, text="Volver", 
+        self.text_area.insert('1.0', contenido)
+        self.text_area.config(state='disabled')
+    
+        # --- Botón Volver (#00838F - Azul petróleo) ---
+        btn_volver = tk.Button(main_frame, text="Volver", 
                              command=self.cerrar_ventana,
                              font=('Arial', 12, 'bold'), width=15,
-                             bg='#6c757d', fg='white', relief='raised',
-                             activebackground='#5a6268')
+                             bg='#00838F', fg='#FFFFFF', relief='raised',
+                             activebackground='#00737D')
         btn_volver.pack(pady=(20, 10))
     
     def center_window(self):

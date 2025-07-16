@@ -1,3 +1,4 @@
+# registro
 import tkinter as tk
 from tkinter import messagebox, simpledialog
 from modelo.mascotaDao import Mascota, guardarDatosMascota
@@ -17,11 +18,13 @@ class Frame(tk.Frame):
         self.botones()
 
     def camposMascota(self):
+        """Crea los campos para los datos de la mascota"""
         labels = ['Nombre del animal', 'Especie', 'Raza', 'N° Chip', 'Fecha de nacimiento',
                 'Sexo', 'Peso']
         self.entriesMascota = {}
         tk.Label(self, text='🐾 Datos de la Mascota', font=('Arial', 16, 'bold'), bg='#BAC3FF')\
             .grid(column=0, row=0, columnspan=2, pady=10)
+        
         for i, label in enumerate(labels):
             tk.Label(self, text=label + ':', font=('Arial', 13), bg='#BAC3FF')\
                 .grid(column=0, row=i+1, sticky='e', padx=10, pady=3)
@@ -31,10 +34,12 @@ class Frame(tk.Frame):
             self.entriesMascota[label] = sv
 
     def camposDueno(self):
+        """Crea los campos para los datos del dueño"""
         labels = ['Nombre del dueño', 'Correo electrónico', 'Teléfono']
         self.entriesDueno = {}
         tk.Label(self, text='👤 Datos del Dueño', font=('Arial', 16, 'bold'), bg='#BAC3FF')\
             .grid(column=2, row=0, columnspan=2, pady=10)
+        
         for i, label in enumerate(labels):
             tk.Label(self, text=label + ':', font=('Arial', 13), bg='#BAC3FF')\
                 .grid(column=2, row=i+1, sticky='e', padx=10, pady=3)
@@ -44,27 +49,31 @@ class Frame(tk.Frame):
             self.entriesDueno[label] = sv
 
     def botones(self):
-        # Frame para botones superiores (Limpiar)
+        """Configura los botones principales"""
+        # Frame para botones superiores
         self.botonesSuperiores = tk.Frame(self, bg='#BAC3FF')
         self.botonesSuperiores.grid(column=0, row=8, columnspan=4, pady=(10, 0))
         
-        # Botón Limpiar (ahora más arriba)
+        # Botón Limpiar (#D0EFFF - Azul cielo suave)
         tk.Button(self.botonesSuperiores, text='Limpiar', command=self.limpiarCampos,
-                width=15, font=('Arial', 12, 'bold'), fg='#fff', bg='#dc3545', cursor='hand2')\
+                width=15, font=('Arial', 12, 'bold'), 
+                bg='#D0EFFF', fg='#2E2E2E', activebackground='#C0DFEF')\
             .pack(side='left', padx=10)
 
-        # Frame para botones inferiores (Guardar, Volver)
+        # Frame para botones inferiores
         self.botonesInferiores = tk.Frame(self, bg='#BAC3FF')
         self.botonesInferiores.grid(column=0, row=12, columnspan=4, pady=20)
 
-        # Botón Guardar
+        # Botón Guardar (#4DB6AC - Verde menta fuerte)
         tk.Button(self.botonesInferiores, text='Guardar', command=self.guardarMascota,
-                width=15, font=('Arial', 12, 'bold'), fg='#fff', bg='#28a745', cursor='hand2')\
+                width=15, font=('Arial', 12, 'bold'), 
+                bg='#4DB6AC', fg='#FFFFFF', activebackground='#3DA89A')\
             .pack(side='left', padx=10)
 
-        # Botón Volver al menú
+        # Botón Volver (#00838F - Azul petróleo)
         tk.Button(self.botonesInferiores, text='Volver al menú', command=self.volver,
-                width=15, font=('Arial', 12, 'bold'), fg='#fff', bg='#17a2b8', cursor='hand2')\
+                width=15, font=('Arial', 12, 'bold'), 
+                bg='#00838F', fg='#FFFFFF', activebackground='#00737D')\
             .pack(side='left', padx=10)
 
     def limpiarCampos(self):

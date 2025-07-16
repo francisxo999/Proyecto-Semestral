@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 from modelo.conexion import ConexionBD
+from modelo.clienteDao import eliminar_cliente
 
 class ListadoClientes(tk.Frame):
     def __init__(self, root, volver_callback):
@@ -13,11 +14,10 @@ class ListadoClientes(tk.Frame):
         self.config(bg='#BAC3FF')
         self.crear_widgets()
         self.cargar_clientes()
-
         self.root.protocol("WM_DELETE_WINDOW", self.volver)
 
     def crear_widgets(self):
-        # Frame principal
+        """Construye la interfaz gráfica"""
         main_frame = tk.Frame(self, bg='#BAC3FF')
         main_frame.pack(fill='both', expand=True, padx=20, pady=20)
 
@@ -26,37 +26,43 @@ class ListadoClientes(tk.Frame):
                 font=('Arial', 16, 'bold'), bg='#BAC3FF')\
             .pack(pady=(0, 20))
 
-        # Frame para controles
+        # Controles
         controles_frame = tk.Frame(main_frame, bg='#BAC3FF')
         controles_frame.pack(fill='x', pady=10)
 
-        # Botón Volver
+        # Botones
         tk.Button(controles_frame, text='Volver', command=self.volver,
                 width=15, font=('Arial', 12, 'bold'), 
-                fg='#fff', bg='#6c757d', cursor='hand2')\
+                bg='#00838F', fg='#FFFFFF', activebackground='#00737D')\
             .pack(side='left', padx=5)
 
-        # Botón Editar
-        self.btn_editar = tk.Button(controles_frame, text='Editar', command=self.editar_cliente,
+        self.btn_editar = tk.Button(controles_frame, text='Editar', 
+                command=self.editar_cliente,
                 width=15, font=('Arial', 12), state='disabled',
-                fg='#fff', bg='#ffc107', cursor='hand2')
+                bg='#388E3C', fg='#FFFFFF', activebackground='#287D30')
         self.btn_editar.pack(side='left', padx=5)
 
-        # Barra de búsqueda
+        self.btn_eliminar = tk.Button(controles_frame, text='Eliminar', 
+                command=self.confirmar_eliminar_cliente,
+                width=15, font=('Arial', 12), state='disabled',
+                bg='#EF9A9A', fg='#FFFFFF', activebackground='#DF8A8A')
+        self.btn_eliminar.pack(side='left', padx=5)
+
+        # Búsqueda
         self.busqueda_var = tk.StringVar()
         tk.Entry(controles_frame, textvariable=self.busqueda_var, 
                 font=('Arial', 12), width=30)\
             .pack(side='left', padx=5)
+
         tk.Button(controles_frame, text='Buscar', command=self.buscar_clientes,
                 width=10, font=('Arial', 12), 
-                fg='#fff', bg='#17a2b8', cursor='hand2')\
+                bg='#4FC3F7', fg='#2E2E2E', activebackground='#3FB2E7')\
             .pack(side='left', padx=5)
 
         # Treeview
         self.tree = ttk.Treeview(main_frame, columns=('ID', 'Nombre', 'Correo', 'Teléfono'), 
                                show='headings', height=20)
         
-        # Configurar columnas
         self.tree.heading('ID', text='ID')
         self.tree.heading('Nombre', text='Nombre')
         self.tree.heading('Correo', text='Correo Electrónico')
@@ -69,14 +75,34 @@ class ListadoClientes(tk.Frame):
 
         self.tree.pack(fill='both', expand=True)
 
-        # Scrollbar y eventos
+        # Scroll y eventos
         scrollbar = ttk.Scrollbar(main_frame, orient="vertical", command=self.tree.yview)
         scrollbar.pack(side='right', fill='y')
         self.tree.configure(yscrollcommand=scrollbar.set)
-        self.tree.bind('<<TreeviewSelect>>', lambda e: self.btn_editar.config(
-            state='normal' if self.tree.selection() else 'disabled'
-        ))
+        self.tree.bind('<<TreeviewSelect>>', self.actualizar_estado_botones)
         self.tree.bind('<Double-1>', lambda e: self.editar_cliente())
+
+    def actualizar_estado_botones(self, event=None):
+        """Actualiza estado de botones según selección"""
+        seleccionado = bool(self.tree.selection())
+        self.btn_editar.config(state='normal' if seleccionado else 'disabled')
+        self.btn_eliminar.config(state='normal' if seleccionado else 'disabled')
+
+    def confirmar_eliminar_cliente(self):
+        """Confirma antes de eliminar cliente"""
+        item = self.tree.selection()
+        if not item:
+            return
+            
+        id_cliente = self.tree.item(item, 'values')[0]
+        nombre = self.tree.item(item, 'values')[1]
+        
+        if messagebox.askyesno("Confirmar", f"¿Eliminar a {nombre} (ID: {id_cliente})?"):
+            if eliminar_cliente(id_cliente):
+                messagebox.showinfo("Éxito", "Cliente eliminado")
+                self.cargar_clientes()
+            else:
+                messagebox.showerror("Error", "No se pudo eliminar")
 
     def cargar_clientes(self, filtro=None):
         try:

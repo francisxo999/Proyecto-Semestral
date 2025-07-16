@@ -6,7 +6,7 @@
 
 > Este proyecto está disponible bajo la [Licencia MIT](https://github.com/francisxo999/Proyecto-Semestral/blob/main/LICENSE).
 > 
-> Actualmente, es una aplicación instalable y totalmente funcional. Sigue este tutorial para saber cómo utilizarlo [TUTORIAL INSTALACIÓN](https://github.com/francisxo999/Proyecto-Semestral/blob/francisco-vera/avances/semana_14/TUTORIAL%20INSTALACI%C3%93N.md).
+> Actualmente, es una aplicación instalable y totalmente funcional. Sigue este tutorial para saber cómo instalarlo y utilizarlo: [Tutorial de Instalación](https://github.com/francisxo999/Proyecto-Semestral/blob/francisco-vera/avances/semana_14/TUTORIAL%20INSTALACI%C3%93N.md).
 
 ---
 
