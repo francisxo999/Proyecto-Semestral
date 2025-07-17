@@ -20,7 +20,7 @@
 | <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" width="25"/> | **Figma** | Plataforma empleada para diseñar las interfaces de usuario y mejorar la experiencia visual. |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel" width="30"/> | **Excel** | Usado para desarrollar y organizar la Carta Gantt del proyecto. |
 | <img src="https://www.svgrepo.com/show/353935/jira.svg" alt="Jira" width="30"/> | **Jira** | Herramienta de gestión de proyectos utilizada para organizar las tareas del equipo. |
-| <img src="https://www.svgrepo.com/show/375531/api.svg" alt="API" width="30"/> | **API (Nager.Date)** | Se usó la API de Nager.Date para consultar y mostrar los feriados nacionales automáticamente en el programa. |
+| <img src="https://www.svgrepo.com/show/375531/api.svg" alt="API" width="30"/> | **API (Nager.Date)** | Se usó la API de Nager.Date para consultar y mostrar feriados automáticamente en el programa. |
 | <img src="https://www.svgrepo.com/show/373690/innosetup.svg" alt="Inno Setup" width="30"/> | **Inno Setup** | Se usó Inno Setup para crear el instalador ejecutable (.exe) del programa. |
 
 ---
