@@ -1,0 +1,3 @@
+Este archivo es un script de instalación para Inno Setup, una herramienta que permite crear instaladores ejecutables (.exe) para Windows. 
+Define los detalles del programa, como su nombre, versión, archivos que se deben incluir, ubicación de instalación y accesos directos. 
+Gracias a este script, es posible empaquetar y distribuir fácilmente la aplicación VETTsafe como un instalador profesional, facilitando su instalación en cualquier equipo con Windows.
