@@ -5,7 +5,7 @@
 
 ## 📥 Paso a paso para preparar el entorno
 
-### 1. Copia el archivo `requirements.txt` a tu nueva PC
+### 1. Copia el archivo `requirements.txt` a tu PC
 
 - Guárdalo en un lugar fácil de acceder, como el Escritorio.
 
