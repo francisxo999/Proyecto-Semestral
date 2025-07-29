@@ -16,7 +16,7 @@
 |:----:|:-----------|:-------------------|
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="30"/> | **Python** | Lenguaje utilizado para la programación de la lógica del sistema y las operaciones CRUD. |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode" width="30"/> | **Visual Studio Code** | Editor de código fuente empleado para programar y organizar los archivos del sistema. |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg" alt="SQLite" width="50"/> | **SQLite** | Motor de base de datos utilizado para almacenar los registros de manera local y eficiente. |
+| <img src="https://raw.githubusercontent.com/wiki/sqlitebrowser/sqlitebrowser/images/db4s.ico" alt="SQLite" width="26"/> | **SQLite** | Motor de base de datos utilizado para almacenar los registros de manera local y eficiente. |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" width="25"/> | **Figma** | Plataforma empleada para diseñar las interfaces de usuario y mejorar la experiencia visual. |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel" width="30"/> | **Excel** | Usado para desarrollar y organizar la Carta Gantt del proyecto. |
 | <img src="https://www.svgrepo.com/show/353935/jira.svg" alt="Jira" width="30"/> | **Jira** | Herramienta de gestión de proyectos utilizada para organizar las tareas del equipo. |
